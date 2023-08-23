@@ -103,7 +103,8 @@ export const ButtonTestimonials = ({
 
     //const response = await fetch('http://localhost:5000/api/comment', {
       try {
-        const response = await fetch('http://127.0.0.1:5000/api/comment', {
+        // const response = await fetch('http://127.0.0.1:5000/api/comment', {
+          const response = await fetch('https://sotisanalytics-backend-da23f9895b9e.herokuapp.com/api/comment', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
