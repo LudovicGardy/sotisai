@@ -1,0 +1,188 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* font-family: "Quicksand", sans-serif; */
+  font-family: "Poppins", sans-serif;
+  background-color: none;
+  /*font-family: "Lora", serif;*/
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 42px;
+  color: rgb(60,60,60)
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 38px;
+  color: rgb(60,60,60)
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 32px;
+  color: rgb(60,60,60)
+}
+
+h4 {
+  font-weight: 300;
+  font-size: 24px;
+  color: rgb(60,60,60)
+}
+
+p, li, a, span {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 2;
+  color: rgb(90,90,90);
+}
+
+ul {
+  padding: 10px;
+  color: rgb(90,90,90);
+}
+
+span {
+  color: rgba(185, 116, 252, 1);
+}
+
+.hero-h1 {
+  color: #fff;
+  animation: fadeIn 3s;
+  white-space: nowrap;
+  padding-bottom: 5vmin;
+  width: 100%;
+  text-align: center;
+  font-size: max(4vw, 18px);
+}
+
+.hero-h2 {
+  margin: 20px;
+  color: #fff;
+  font-size: 1.8vw;
+  animation: fadeIn 3s;
+  font-weight: 300;
+  font-size: max(2vw, 12px);
+  text-align: center;
+  width: 100%;
+}
+
+.span-h1 {
+  font-weight: 700;
+  font-size: 7vmin;
+}
+
+.bold-h4 {
+ font-weight: 700;
+ padding-top: 5vmin;
+ padding-bottom: 5vmin;
+}
+
+.banners-title {
+  color: rgb(240,240,240);
+  font-size: 32px;
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.banners-icon {
+  color: rgb(240,240,240);
+}
+
+.sign-up {
+  background-image: url("/public/images/LG_imgs/lab_background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+  height: 100vh;
+  width: 100vw;
+}
+
+.preloader {
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.preloader img {
+  margin: auto;
+}
+
+@media only screen and (max-width: 1500px) {
+  h1 {
+    font-size: 36px;
+  }
+  
+  h2 {
+    font-size: 32px;
+  }
+  
+  h3 {
+    font-size: 28px;
+  }
+  
+  h4 {
+    font-size: 26px;
+  }
+  
+  p, li, a, span {
+    font-size: 18px;
+  }
+  
+}
+
+@media only screen and (max-width: 1000px) {
+  h1 {
+    font-size: 32px;
+  }
+  
+  h2 {
+    font-size: 28px;
+  }
+  
+  h3 {
+    font-size: 24px;
+  }
+  
+  h4 {
+    font-size: 20px;
+  }
+  
+  p, li, a, span {
+    font-size: 16px;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 22px;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+  
+  h3 {
+    font-size: 18px;
+  }
+  
+  h4 {
+    font-size: 16px;
+  }
+  
+  p, li, a, span {
+    font-size: 14px;
+  }
+
+}

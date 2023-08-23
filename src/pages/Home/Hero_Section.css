@@ -1,0 +1,57 @@
+.hero-container {
+  /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+  width: 100%;
+  padding-top: 75px;
+  /* box-shadow: inset 0 0 20px #000000;; */
+  /*box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);*/
+  /*background: rgba(185, 116, 252, 0.2);*/
+  position: relative;
+}
+
+.hero-container video {
+  object-fit: cover;
+  width: 100%;
+  height: 120%; /* necessary to cover the entire hero container especially on mobile */
+  position: fixed;
+  z-index: -1;
+}
+
+.hero-title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.fa-play-circle {
+  margin-left: 4px;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes fadeIn_delayed {
+  0% { opacity: 0; }
+  30% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@media screen and (max-width: 768px) {
+
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}

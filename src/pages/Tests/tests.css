@@ -1,0 +1,39 @@
+/* https://github.com/rexxars/react-hexagon */
+/* 
+.services-content {
+    position: relative;
+    width: 95%;
+
+}
+
+.halfborder-content {
+    border-top: 1px solid rgb(50,50,50);
+    border-left: 1px solid rgb(50,50,50);
+    margin-top: 35px; 
+    margin-left: 35px; 
+    width: 60%;
+    height: 60%
+}
+
+.services-content-text {
+    margin-top: 15px; 
+    margin-left: 15px; 
+    width: 90%;
+    flex-basis: 90%;
+    position: absolute;
+}
+
+
+.hexa {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 200px;
+    z-index: 2;  
+}   
+
+.hexa:hover {
+    filter:brightness(75%);
+    cursor: pointer;
+} */

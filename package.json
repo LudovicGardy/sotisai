@@ -1,0 +1,67 @@
+{
+  "name": "navbar-dropdown-v1",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/css": "^11.10.6",
+    "@fortawesome/fontawesome-free": "^6.4.2",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-regular-svg-icons": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^1.4.0",
+    "babel-plugin-macros": "^3.1.0",
+    "body-scroll-lock": "^4.0.0-beta.0",
+    "google-maps-react": "^2.0.6",
+    "mssql": "^9.1.1",
+    "mysql": "^2.18.1",
+    "react": "^16.13.1",
+    "react-calendly": "^4.1.1",
+    "react-cookie-consent": "^8.0.1",
+    "react-dom": "^16.13.1",
+    "react-fade-in": "^2.0.1",
+    "react-ga": "^3.3.1",
+    "react-hexagon": "^1.1.3",
+    "react-hover-video-player": "^10.0.0",
+    "react-icons": "^4.9.0",
+    "react-image": "^4.1.0",
+    "react-modal": "^3.16.1",
+    "react-moving-text": "0.0.7",
+    "react-owl-carousel": "^2.3.3",
+    "react-player": "^2.12.0",
+    "react-preloader-icon": "^1.0.0",
+    "react-preloaders": "^3.0.3",
+    "react-responsive-carousel": "^3.2.23",
+    "react-reveal": "^1.2.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^5.0.1",
+    "react-slick": "^0.29.0",
+    "serve": "^14.2.1",
+    "slick-carousel": "^1.8.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

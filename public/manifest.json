@@ -1,0 +1,25 @@
+{
+  "short_name": "AMT",
+  "name": "Sotis A.I.",
+  "icons": [
+    {
+      "src": "https://sotisimmo.s3.eu-north-1.amazonaws.com/Sotis_AI_pure_240px.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "https://sotisimmo.s3.eu-north-1.amazonaws.com/Sotis_AI_pure_240px.ico",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://sotisimmo.s3.eu-north-1.amazonaws.com/Sotis_AI_pure_240px.ico",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

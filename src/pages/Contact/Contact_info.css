@@ -1,0 +1,62 @@
+.contactInfo_container {
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(185, 116, 252, 1); */
+    height: 30vh;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: rgb(50,50,50);
+}
+
+.horizontal-box-icon {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    border-radius: 8px;
+    height: 100%;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-evenly;
+    font-size: 2vmin;
+    line-height: 50px;
+    overflow-wrap: break-word;
+    word-break:break-all;
+}
+  
+.vertical-box-info {
+    position: relative;
+    display: flex;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 5px;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    height: 100%;
+    object-fit: center;
+}
+
+.contactIcon_style {
+    height: 40%;
+    width: 100%;
+    color: rgb(50,50,50);
+    padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 750px) {
+    .contactInfo_container {
+        height: 75vh;
+
+    }
+
+    .horizontal-box-icon {
+        flex-direction: column;
+        height: 33%;
+
+    }
+}
