@@ -26,26 +26,7 @@ export const ButtonTestimonials = ({
     const handleCloseModal = () => {
       setShowModal(false);
     };
-  
-  const handleSendComment = async (event) => {
-    event.preventDefault();
-  
-    const response = await fetch('https://formspree.io/f/xzbqkody', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({ name, email, comment }),
-    });
-  
-    if (response.ok) {
-      alert('Thank you for your comment! It will be online soon. Have a great day!');
-      handleCloseModal();
-    } else {
-      alert('There was an error, sorry.');
-    }
-  };
-    
+
   const handleSendComment_to_backend = async (event) => {
     event.preventDefault();
     // Pour envoyer des informations à un backend Python en utilisant Flask, 
@@ -62,22 +43,22 @@ export const ButtonTestimonials = ({
   
     //const response = await fetch('http://localhost:5000/api/comment', {
       try {
-        //   const response = await fetch('http://127.0.0.1:5000/api/comment', {
-          const response = await fetch('https://sotisanalytics-backend-da23f9895b9e.herokuapp.com/api/comment', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({ name, email, comment }),
+        const response = await fetch('http://127.0.0.1:5000/api/submitTestimonial', {
+        // const response = await fetch('https://sotisanalytics-backend-da23f9895b9e.herokuapp.com/api/submitTestimonial', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ name, email, comment }),
         });
-        
+          
         if (!response.ok) {
           // Si la réponse n'est pas OK (200), affiche une erreur
           throw new Error('Network response was not ok');
         }
     
         const data = await response.json();
-        alert(`Thank you for your comment! It will be online soon. Have a great day! Random number from backend = ${data.random_number}`);
+        alert(`Thank you for your comment! It will be online soon. Have a great day! ID:${data.random_number}`);
         handleCloseModal();
     
       } catch (error) {
