@@ -14,44 +14,57 @@ function Dev_squares() {
 
         <div className="devsquares_container">
 
-            <h2>Quality and warranties</h2>
+            <h2>Quality and Warranties</h2>
 
             <div className="devsquares_wrapper">
                 <div className="devsquares_hbox">
-                    <h4> <FontAwesomeIcon icon={faLaptopCode} className="devsquares_icon" /> Performances</h4>
-                    <p>Performance optimization in application development ensures rapid data analysis and accurate results. This enables you to make informed decisions more quickly and optimize operational efficiency.</p>
+                    <h4> <FontAwesomeIcon icon={faLaptopCode} className="devsquares_icon" /> Performance</h4>
+                    <p>Evaluates how quickly and efficiently the application processes tasks. Critical for real-time analytics, data processing, and user experience. A high-performance system can save both time and resources.</p>
                 </div>
 
                 <div className="devsquares_hbox">
-                    <h4> <FontAwesomeIcon icon={faLaptopCode} className="devsquares_icon" /> Automation</h4>
-                    <p>Automating tasks in the development process saves time and improves overall efficiency. This frees up repetitive tasks, allowing profesionnals to focus on higher value-added tasks.</p>
+                    <h4> <FontAwesomeIcon icon={faLaptopCode} className="devsquares_icon" /> Flexibility</h4>
+                    <p>Measures the system's adaptability to new requirements or changes. Whether it's adding new features, integrating with third-party services, or modifying existing functionalities, flexibility is key.</p>
                 </div>
             </div>
 
             <div className="devsquares_wrapper">
                 <div className="devsquares_hbox">
                     <h4> <FontAwesomeIcon icon={faLaptopCode} className="devsquares_icon" /> Scalability</h4>
-                    <p>Scalable solutions are essential to cope with data growth and increasing user numbers. A scalability-focused design ensures that applications remain high-performing and functional, whatever the size of the enterprise.</p>
+                    <p>Assesses the application's ability to handle increased user loads or data volume. Essential for projects that anticipate growth, either in user numbers or in data complexity.</p>
                 </div>
 
                 <div className="devsquares_hbox">
-                    <h4> <FontAwesomeIcon icon={faLaptopCode} className="devsquares_icon" /> Deployment</h4>
-                    <p>Effective deployment of models in production enables their full potential to be exploited. By integrating models into applications or creating APIs, analytics can be leveraged to support operations and improve results.</p>
+                    <h4> <FontAwesomeIcon icon={faLaptopCode} className="devsquares_icon" /> Security</h4>
+                    <p>Rates the robustness against unauthorized access, data breaches, and other vulnerabilities. Especially crucial for applications that handle sensitive or confidential information.</p>
                 </div>
-            </div>       
+            </div>
 
             <div className="devsquares_wrapper">
                 <div className="devsquares_hbox">
-                    <h4> <FontAwesomeIcon icon={faLaptopCode} className="devsquares_icon" /> Security</h4>
-                    <p>Data security is crucial in the development of solutions. A secure approach protects sensitive information from potential threats, providing the peace of mind needed to conduct business or research protocols with confidence.</p>
+                    <h4> <FontAwesomeIcon icon={faLaptopCode} className="devsquares_icon" /> Implementation</h4>
+                    <p>Gauges the ease and speed of the initial setup process, from coding to launching the application. A smooth implementation process can significantly reduce the time-to-market.</p>
                 </div>
 
                 <div className="devsquares_hbox">
-                    <h4> <FontAwesomeIcon icon={faLaptopCode} className="devsquares_icon" /> Version control</h4>
-                    <p>The use of version control systems such as Git and GitHub promotes smooth collaboration within teams. This makes it possible to track code modifications, manage versions and ensure complete traceability of data science projects.</p>
+                    <h4> <FontAwesomeIcon icon={faLaptopCode} className="devsquares_icon" /> Local Deployment</h4>
+                    <p>Measures the ease of setting up the application in a local environment. This is often the first step before scaling to a more complex cloud-based system and is crucial for initial testing.</p>
+                </div>
+            </div>
+
+            <div className="devsquares_wrapper">
+                <div className="devsquares_hbox">
+                    <h4> <FontAwesomeIcon icon={faLaptopCode} className="devsquares_icon" /> Web Deployment</h4>
+                    <p>Evaluates how straightforward it is to deploy the application on the web. Important for Software as a Service (SaaS) models, e-commerce platforms, and any application requiring remote access.</p>
+                </div>
+
+                <div className="devsquares_hbox">
+                    <h4> <FontAwesomeIcon icon={faLaptopCode} className="devsquares_icon" /> Distant Databases</h4>
+                    <p>Assesses the ease of connecting to and interacting with remote databases. Important for applications that rely on distributed data storage or cloud-based data solutions.</p>
                 </div>
             </div>  
-      </div>
+        </div>
+
       </Fade>
 
     );

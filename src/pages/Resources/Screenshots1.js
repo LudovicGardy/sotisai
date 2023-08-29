@@ -7,20 +7,20 @@ import { Fade, LightSpeed, Zoom } from 'react-reveal';
 import './Screenshots.css';
 
 const images = [
-  './images/LG_screenshots/jpg/screen1.jpg',
-  './images/LG_screenshots/jpg/screen2.jpg',
-  './images/LG_screenshots/jpg/screen3.jpg',
-  './images/LG_screenshots/jpg/screen4.jpg',
-  './images/LG_screenshots/jpg/screen5.jpg',
-  './images/LG_screenshots/jpg/screen6.jpg',
-  './images/LG_screenshots/jpg/screen7.jpg',
-  './images/LG_screenshots/jpg/screen8.jpg',
-  './images/LG_screenshots/jpg/screen9.jpg',
-  './images/LG_screenshots/jpg/screen10.jpg',
-  './images/LG_screenshots/jpg/screen11.jpg',
-  './images/LG_screenshots/jpg/screen12.jpg',
-  './images/LG_screenshots/jpg/screen13.jpg',
-  './images/LG_screenshots/jpg/screen14.jpg',
+  './images/carousel_halyzia/screen1.jpg',
+  './images/carousel_halyzia/screen2.jpg',
+  './images/carousel_halyzia/screen3.jpg',
+  './images/carousel_halyzia/screen4.jpg',
+  './images/carousel_halyzia/screen5.jpg',
+  './images/carousel_halyzia/screen6.jpg',
+  './images/carousel_halyzia/screen7.jpg',
+  './images/carousel_halyzia/screen8.jpg',
+  './images/carousel_halyzia/screen9.jpg',
+  './images/carousel_halyzia/screen10.jpg',
+  './images/carousel_halyzia/screen11.jpg',
+  './images/carousel_halyzia/screen12.jpg',
+  './images/carousel_halyzia/screen13.jpg',
+  './images/carousel_halyzia/screen14.jpg',
 ];
 
 const links = [
@@ -30,7 +30,7 @@ const links = [
   ];
   
 
-function ScreenshotsArea() {
+function ScreenshotsArea1() {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
   
     function handlePrevious() {
@@ -75,7 +75,7 @@ function ScreenshotsArea() {
     );
   }
   
-  export default ScreenshotsArea;
+  export default ScreenshotsArea1;
 
 
   

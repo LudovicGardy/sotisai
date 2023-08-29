@@ -55,7 +55,6 @@
 .devsquares_icon {
     padding-right: 15px;
     color: rgba(175,125,250,1);
-
 }
 
 .devsquares_container p {
@@ -142,17 +141,17 @@
 
 .arrow-left {
     left: 0;
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0,0,0,0.1);
 }
 
 .arrow-right {
     right: 0;
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0,0,0,0.1);
 }
 
 .arrow-left:hover,
 .arrow-right:hover {
-    background-color: rgba(0,0,0,0.1);    
+    background-color: rgba(0,0,0,0.2);    
 }
 
 /*
