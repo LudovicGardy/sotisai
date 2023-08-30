@@ -32,7 +32,9 @@ function getRatingDescription(score) {
 function Rating({ label, score }) {
 return (
     <div className="rating-item">
-    <div className="rating-label">{label}</div>
+    <div className="rating-label">
+      <p>{label}</p>
+    </div>
     <div className="rating-circles">
         {[...Array(5)].map((_, i) => (
         <div

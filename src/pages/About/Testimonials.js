@@ -19,22 +19,20 @@ function Testimonials() {
             <div className="testimonials-content">
                 <div className="testimonials-content-img">
                     <img src="/images/gardy_black_bg.jpg"></img>
-            </div>
-
-            <div className="services-quote-text testimonials-quote-text">
-                <figure className="services-figure figure-large">
-                    <blockquote className="blockquote">
-                        <p>What I like about my job is the diversity of applications and subjects I have the opportunity to deal with. 
-                        Discovering new projects, new data and new questions is always exciting for me. </p>
-                        <p>Beyond the technical aspect that drives me, I enjoy meeting the people, teams, experts and 
-                        less-experts who trust me to help them with their projects, whatever their scope.</p>
-                        <figcaption className="figcaption">
-                            <span className="figcaption-span-services">Ludovic Gardy</span>
-                        </figcaption>
-                    </blockquote>
-                </figure>
-            </div>
-
+                </div>
+                <div className="services-quote-text testimonials-quote-text">
+                    <figure className="services-figure figure-large">
+                        <blockquote className="blockquote">
+                            <p>What I like about my job is the diversity of applications and subjects I have the opportunity to deal with. 
+                            Discovering new projects, new data and new questions is always exciting for me. </p>
+                            <p>Beyond the technical aspect that drives me, I enjoy meeting the people, teams, experts and 
+                            less-experts who trust me to help them with their projects, whatever their scope.</p>
+                            <figcaption className="figcaption">
+                                <span className="figcaption-span-services">Ludovic Gardy</span>
+                            </figcaption>
+                        </blockquote>
+                    </figure>
+                </div>
         </div>
 
         <TestimonialsCarousel/>

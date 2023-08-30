@@ -99,60 +99,6 @@
     width: 100%;
 }
 
-/* Carousel */
-.carousel {
-    position: relative;
-    width: 100%;
-    height: 700px;
-  }
-  
-.carousel img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: fill;
-    border: 1px solid rgb(50,50,50);
-}
-
-.arrow {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 50px;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    z-index: 2;
-}
-
-.arrow i {
-    font-size: 24px;
-    color: rgba(175,125,250,1);
-    transition: all 0.3s ease-in-out;
-}
-
-/* .arrow:hover i {
-    font-size: 32px;
-} */
-
-.arrow-left {
-    left: 0;
-    background-color: rgba(0,0,0,0.1);
-}
-
-.arrow-right {
-    right: 0;
-    background-color: rgba(0,0,0,0.1);
-}
-
-.arrow-left:hover,
-.arrow-right:hover {
-    background-color: rgba(0,0,0,0.2);    
-}
 
 /*
 @media only screen and (min-width: 1250px) {
@@ -176,54 +122,58 @@
 
 @media only screen and (max-width: 1100px) {
 
-    .devsquares_container {
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
+.devsquares_container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
-    .horizontal_box_devsquares {
-        flex-direction: column;
-    }
+.horizontal_box_devsquares {
+    flex-direction: column;
+}
 
-    .left_box_devsquares {
-        align-self: stretch;
-    }
+.left_box_devsquares {
+    align-self: stretch;
+}
 
-    .devsquares_wrapper {
-        flex-direction: column;
-        margin: 0px;
-    }
-
-    .devsquares_hbox {
-        width: 100%;
-        margin: 0px;
-        margin-top: 10px;
-    }
+.devsquares_hbox {
+    width: 100%;
+    margin-top: 10px;
+}
     
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 900px) {
+.devsquares_hbox {
+    height: 350px;
+}   
 
-    .devsquares_container {
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-    
-    .devsquares_container h1 {
-        padding: 20px;
-    }
+.devsquares_hbox p {
+    text-align: justify;
+}    
+}
 
-    .devsquares_hbox {
-        height: 350px;
-    }
+@media only screen and (max-width: 600px) {
+
+.devsquares_container {
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.devsquares_wrapper {
+    flex-direction: column;
+    width: 100%;
 
 }
 
-@media only screen and (max-width: 330px) {
-
-    .devsquares_hbox {
-        height: 450px;
-    }
-
+.devsquares_container h1 {
+    padding: 20px;
 }
 
+.devsquares_hbox {
+    height: auto;
+    width: auto;
+}
+
+}

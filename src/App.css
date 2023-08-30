@@ -186,3 +186,24 @@ span {
   }
 
 }
+
+
+
+@media only screen and (max-width: 1200px) {
+
+  .hero-h1 {
+    font-size: max(6vw, 18px);
+  }
+
+  .hero-h2 {
+    margin: 20px;
+    color: #fff;
+    font-size: 1.8vw;
+    animation: fadeIn 3s;
+    font-weight: 300;
+    text-align: center;
+    width: 100%;
+    font-size: max(3vw, 12px);
+  }
+  
+}

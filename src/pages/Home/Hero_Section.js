@@ -18,7 +18,7 @@ function HeroSection() {
         <h1 className="hero-h1">Insightful Analytics</h1>
       </div>
       <h2 className="hero-h2">Data Science Solutions by Ludovic Gardy, Ph.D. </h2>
-      <h2  className="hero-h2" style={{marginTop:'0px'}}>Serving France & Beyond</h2>
+      <h2 className="hero-h2" style={{marginTop:'0px'}}>Serving France & Beyond</h2>
       <div className="hero-btns">
         <Button
           className="btns"

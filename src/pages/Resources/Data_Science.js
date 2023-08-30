@@ -15,6 +15,7 @@ import { faSliders } from '@fortawesome/free-solid-svg-icons';
 import { faHandshake } from '@fortawesome/free-solid-svg-icons';
 import { faCircleInfo } from '@fortawesome/free-solid-svg-icons';
 import { faCalendarCheck } from '@fortawesome/free-solid-svg-icons';
+import { faRocket } from '@fortawesome/free-solid-svg-icons';
 
 // https://fontawesome.com/v6/icons?q=Table&o=r&s=solid
 
@@ -67,7 +68,7 @@ function Data_Science() {
           <div className="services-content-text">
             <div className="services-content-left-title-wrapper">
               <h4 className="services-content-left-title">French Real Estate Price Web App</h4>
-              <p className="news-text"><FontAwesomeIcon icon={faCalendarCheck} title="Date" className="services-icon subtitle-icons"/> 2023, August</p>
+              <p className="news-text"><FontAwesomeIcon icon={faCalendarCheck} title="Date" className="services-icon subtitle-icons"/> 2023</p>
             </div>
             <ul className="services-content-ul">
               <li><FontAwesomeIcon icon={faPersonCircleQuestion} title="Problem or request" className="services-icon"/> 
@@ -77,7 +78,7 @@ function Data_Science() {
               <li><FontAwesomeIcon icon={faSliders} title="Methods" className="services-icon"/> 
               Integrated official French government datasets to provide up-to-date, accurate insights into real estate trends.</li>
               <li><FontAwesomeIcon icon={faHandshake} title="Delivered to (organization)" className="services-icon"/> 
-              Developed as a personal project. <a target="_blank" href="https://www.sotisanalytics.immo" className="advertise_link">- Click here to try it -</a></li>
+              Developed as a personal project. <a target="_blank" href="https://www.sotisanalytics.immo" className="advertise_link"><FontAwesomeIcon icon={faRocket} title="Date" className="services-icon subtitle-icons"/>Click here to try it <FontAwesomeIcon icon={faRocket} title="Date" className="services-icon subtitle-icons"/></a></li>
               <li><FontAwesomeIcon icon={faCircleInfo} title="Additional info." className="services-icon"/> 
               The application is user-friendly, offering easy navigation and tailored insights to a wide range of users from potential homebuyers to real estate professionals.</li>
             </ul>
@@ -95,7 +96,7 @@ function Data_Science() {
           <div className="services-content-text">
             <div className="services-content-left-title-wrapper">
               <h4 className="services-content-left-title">Specialized A.I. Chatbots</h4>
-              <p className="news-text"><FontAwesomeIcon icon={faCalendarCheck} title="Problem or requet" className="services-icon subtitle-icons"/> 2023, July</p>
+              <p className="news-text"><FontAwesomeIcon icon={faCalendarCheck} title="Problem or requet" className="services-icon subtitle-icons"/> 2023</p>
             </div>
             <ul className="services-content-ul">
               <li><FontAwesomeIcon icon={faPersonCircleQuestion} title="Problem or requet" className="services-icon"/> 

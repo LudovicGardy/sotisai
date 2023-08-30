@@ -53,19 +53,23 @@ function ScreenshotsArea1() {
                   <div className="left_box_screenshots">
                       <div className="carousel">
                           <img src={images[currentImageIndex]} alt="carousel" />
-                          <div className="arrow arrow-left" onClick={handlePrevious}><i className="fas fa-arrow-left"></i></div>
-                          <div className="arrow arrow-right" onClick={handleNext}><i className="fas fa-arrow-right"></i></div>
+                          <div className="arrow arrow-left" onClick={handlePrevious}>
+                            <i className="fas fa-arrow-left"></i>
+                          </div>
+                          <div className="arrow arrow-right" onClick={handleNext}>
+                            <i className="fas fa-arrow-right"></i>
+                          </div>
                           {/* <div className="arrow arrow-left" onClick={handlePrevious}><i><FontAwesomeIcon icon={faArrowCircleLeft} /></i></div>
                           <div className="arrow arrow-right" onClick={handleNext}><i><FontAwesomeIcon icon={faArrowCircleRight} /></i></div> */}
                       </div>
-                        <p className="Halyzia_description">Halyzia&#169; exemplifies my creative and comprehensive approach to project development. 
-                        I created this complete solution for processing EEG (brain activity) data to assist in diagnosing drug-resistant epilepsy. 
-                        My involvement spanned from conceptualization and design to development, project management, 
-                        documentation writing, user training, and technical support. Now operated by a French 
-                        startup, <a href="https://avriomedtech.com/">Avrio MedTech&#169;</a>, it serves both research and clinical concerns.
-                        Most of my projects involve varying degrees of software development, with tools and design methods 
-                        tailored to specific requirements such as users, deployment, maintenance, etc.
-                        </p>
+                      <p className="Halyzia_description">Halyzia&#169; exemplifies my creative and comprehensive approach to project development. 
+                      I created this complete solution for processing EEG (brain activity) data to assist in diagnosing drug-resistant epilepsy. 
+                      My involvement spanned from conceptualization and design to development, project management, 
+                      documentation writing, user training, and technical support. Now operated by a French 
+                      startup, <a href="https://avriomedtech.com/">Avrio MedTech&#169;</a>, it serves both research and clinical concerns.
+                      Most of my projects involve varying degrees of software development, with tools and design methods 
+                      tailored to specific requirements such as users, deployment, maintenance, etc.
+                      </p>
                   </div>
               </div>
               </Fade>
