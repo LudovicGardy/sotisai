@@ -197,3 +197,40 @@
   }
 
 }
+
+@media only screen and (max-width: 600px) {
+
+  .cards {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .cards__item {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+  } 
+
+}
+
+@media only screen and (max-width: 400px) {
+
+  .cards {
+    padding: 5px;
+    padding-bottom: 20px;
+  }
+  
+  .cards__wrapper {
+    flex-direction: column;
+    height: 100%;
+  }
+  .cards__item {
+    width: 100%;
+  }  
+  
+
+}
