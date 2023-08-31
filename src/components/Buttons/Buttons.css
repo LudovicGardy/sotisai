@@ -1,5 +1,17 @@
 :root {
-  _primary: #fff;
+  --primary: #fff;
+}
+
+.btn_testimonials {
+  padding: 8px 20px;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(50,50,50);
+  color: #fff;
+  border: 1px solid rgb(50,50,50);
+  width: 100%;
 }
 
 .btn {

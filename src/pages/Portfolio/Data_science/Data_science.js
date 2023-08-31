@@ -78,7 +78,7 @@ function Data_Science() {
               <li><FontAwesomeIcon icon={faSliders} title="Methods" className="services-icon"/> 
               Integrated official French government datasets to provide up-to-date, accurate insights into real estate trends.</li>
               <li><FontAwesomeIcon icon={faHandshake} title="Delivered to (organization)" className="services-icon"/> 
-              Developed as a personal project. <a target="_blank" href="https://immo.sotisanalytics.com" className="advertise_link">Click here to try it <FontAwesomeIcon icon={faRocket} title="Date" className="services-icon subtitle-icons"/></a></li>
+              Developed as a personal project. <a target="_blank" href="https://immo.sotisanalytics.com" className="advertise_link">Click here to the app <FontAwesomeIcon icon={faRocket} title="Date" className="services-icon subtitle-icons"/></a></li>
               <li><FontAwesomeIcon icon={faCircleInfo} title="Additional info." className="services-icon"/> 
               The application is user-friendly, offering easy navigation and tailored insights to a wide range of users from potential homebuyers to real estate professionals.</li>
             </ul>

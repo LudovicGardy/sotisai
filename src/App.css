@@ -92,17 +92,6 @@ span {
   color: rgb(240,240,240);
 }
 
-.sign-up {
-  background-image: url("/public/images/LG_imgs/lab_background.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-  height: 100vh;
-  width: 100vw;
-}
-
 .preloader {
   position: fixed;
   z-index: 9999;

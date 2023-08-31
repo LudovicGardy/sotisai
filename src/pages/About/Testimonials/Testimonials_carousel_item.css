@@ -269,6 +269,12 @@
     transition: width 0.25s ease-in-out;
 }
 
+.btn_testimonials_container {
+    background-color: red;
+    width: 100%;
+}
+
+
 @media only screen and (max-width: 800px) {
 
     .testCards_container {

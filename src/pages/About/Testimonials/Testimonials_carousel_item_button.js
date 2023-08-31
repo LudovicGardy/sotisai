@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
+import "./Testimonials_carousel_item.css";
 import "../../../components/Buttons/Buttons.css";
-
-const STYLES = ["btn_primary", "btn_secondary",  "btn_third", "btn_outline", "btn_test", "btn_reverse"];
-const SIZES = ["btn_medium", "btn_large", "btn_large2",  "btn_large3"];
 
 export const ButtonTestimonials = ({
     children,
@@ -15,10 +13,7 @@ export const ButtonTestimonials = ({
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [comment, setComment] = useState('');
-  
-    const checkButtonStyle = STYLES.includes(buttonStyle) ? buttonStyle : STYLES[0];
-    const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
-  
+    
     const handleOpenModal = () => {
       setShowModal(true);
     };
@@ -69,9 +64,9 @@ export const ButtonTestimonials = ({
     };
   
   return (
-    <div>
+    <div className='btn_testimonials_container'>
       <button
-        className={`btn ${checkButtonStyle} ${checkButtonSize}`}
+        className={`btn_medium btn_testimonials`}
         onClick={handleOpenModal}
         type={type}
       >
