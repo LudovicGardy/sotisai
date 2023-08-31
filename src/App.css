@@ -189,7 +189,7 @@ span {
 
 
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1300px) {
 
   .hero-h1 {
     font-size: max(6vw, 18px);

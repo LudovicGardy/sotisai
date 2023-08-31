@@ -1,16 +1,9 @@
 import React, { useState, useEffect, useRef } from "react";
-import Modal from 'react-modal';
-import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
-import Footer from "../../components/Footer";
-import Partners from "../Home/Partners";
 import "../../App.css";
 import "./tests.css"
 import Hexagon from 'react-hexagon'
 
-// import "./Services.css";
-
-import Modal_component from "../../components/Modal_component";
-
+// import "./Portfolio.css";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPersonCircleQuestion } from '@fortawesome/free-solid-svg-icons';

@@ -1,9 +1,9 @@
 import {React, useContext, useEffect } from "react";
 
 import "../App.css";
-import Footer from "../components/Footer";
+import Footer from "../components/Footer/Footer";
 
-import About_Page from "./About/About_page";
+import About_Page from "./About/History/History_page";
 import ReactGA from "react-ga"
 
 

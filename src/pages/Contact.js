@@ -1,12 +1,12 @@
 import React from "react";
 
 import "../App.css";
-import Footer from "../components/Footer";
-import Contact_Banner from "./Contact/Contact_Banner";
+import Footer from "../components/Footer/Footer";
+import Contact_Banner from "./Contacts/Contacts_banner";
 
-import Contact_Field from "./Contact/Contact_Field";
-import GoogleApiWrapper from "./Contact/Google_maps";
-import ContactInfo from "./Contact/Contact_info";
+import Contact_Field from "./Contacts/Contacts_field";
+import GoogleApiWrapper from "./Contacts/Google_maps";
+import ContactInfo from "./Contacts/Contacts_info";
 // import Contact_Schedule from "./Contact/Contact_Schedule";
 
 

@@ -1,17 +1,16 @@
 import React from "react";
 
 import "../App.css";
-import Footer from "../components/Footer";
+import Footer from "../components/Footer/Footer";
 
-import Parallax from "./Home/Parallax";
-import Introduction from "./Home/Introduction";
-import HeroSection from "./Home/Hero_Section";
-import Cards from "./Home/Cards";
-import Partners from "./Home/Partners";
+import Parallax from "./Home/Parallax_section";
+import Introduction from "./Home/Introduction_section";
+import HeroSection from "./Home/Heroo_section";
+import Cards from "./Home/Cards_section";
+import Partners from "./Home/Scrolling_banner_section";
 
 function Home() {
 
-  console.log("lolzz")
   return (
     <>
       <HeroSection />

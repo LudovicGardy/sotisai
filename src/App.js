@@ -4,23 +4,22 @@ import { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import ReactCookieConsent from "react-cookie-consent";
 
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar/Navbar';
 import './App.css';
 import Home from './pages/Home';
-import CookiesPolicy from './components/Cookies_Policy';
+import CookiesPolicy from './components/Cookies/Cookies_policy';
 
 
 import Contact from './pages/Contact';
 import About from './pages/About';
-import SignUp from './pages/SignUp';
-import DataScience from './pages/Resources/Data_Science';
-import SignalProcessing from './pages/Resources/Signal_Processing';
-import FullstackDev from './pages/Resources/Fullstack_Dev';
-import Dashboards from './pages/Resources/Dashboards';
-import Testimonials from './pages/About/Testimonials';
-import Legal_Information from './components/Legal_Information';
-import Trust_And_Security from './components/Trust_And_Security';
-import Error_Page from './components/Error_Page';
+import DataScience from './pages/Portfolio/Data_science/Data_science_';
+import SignalProcessing from './pages/Portfolio/Signal_processing/Signal_processing_';
+import FullstackDev from './pages/Portfolio/Development/Development';
+import Dashboards from './pages/Portfolio/Dashboards/Dashboards';
+import Testimonials from './pages/About/Testimonials/Testimonials';
+import Legal_Information from './components/Legal_info/Legal_info';
+import Trust_And_Security from './components/Trust_security';
+import Error_Page from './components/Error_msg/Error_msg';
 import tests from './pages/Tests/tests';
 import { InlineWidget, PopupWidget } from "react-calendly";
 
@@ -70,7 +69,6 @@ function App() {
             <Route path="/dashboards" component={Dashboards} />
             <Route path="/about" component={About} />
             <Route path="/testimonials" component={Testimonials} />
-            <Route path="/sign-up" component={SignUp} />
             <Route path="/legal-information" component={Legal_Information} />
             <Route path="/trust-and-security" component={Trust_And_Security} />
             <Route path="/cookies-policy" component={CookiesPolicy} />
