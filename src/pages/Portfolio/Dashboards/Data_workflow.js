@@ -119,8 +119,8 @@ function Data_workflow() {
             <div className="hero-btns">
                 <Button
                 className="btns"
-                buttonStyle="btn--secondary"
-                buttonSize="btn--large2"
+                buttonStyle="btn_secondary"
+                buttonSize="btn_large2"
                 redirection="/contact"
                 >
                 CONTACT

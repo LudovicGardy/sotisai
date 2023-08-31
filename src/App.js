@@ -6,20 +6,20 @@ import ReactCookieConsent from "react-cookie-consent";
 
 import Navbar from './components/Navbar/Navbar';
 import './App.css';
-import Home from './pages/Home';
+import Home from './pages/Home/Home';
 import CookiesPolicy from './components/Cookies/Cookies_policy';
 
 
-import Contact from './pages/Contact';
-import About from './pages/About';
-import DataScience from './pages/Portfolio/Data_science/Data_science_';
-import SignalProcessing from './pages/Portfolio/Signal_processing/Signal_processing_';
+import Contact from './pages/Contacts/Contact';
+import HistoryPage from './pages/About/History_page/History_page';
+import DataScience from './pages/Portfolio/Data_science/Data_science';
+import SignalProcessing from './pages/Portfolio/Signal_processing/Signal_processing';
 import FullstackDev from './pages/Portfolio/Development/Development';
 import Dashboards from './pages/Portfolio/Dashboards/Dashboards';
 import Testimonials from './pages/About/Testimonials/Testimonials';
-import Legal_Information from './components/Legal_info/Legal_info';
-import Trust_And_Security from './components/Trust_security';
-import Error_Page from './components/Error_msg/Error_msg';
+import LegalInfo from './components/Legal_info/Legal_info';
+import TrustSecurity from './components/Trust_security';
+import ErrorPage from './components/Error_msg/Error_msg';
 import tests from './pages/Tests/tests';
 import { InlineWidget, PopupWidget } from "react-calendly";
 
@@ -67,13 +67,13 @@ function App() {
             <Route path="/signal-processing" component={SignalProcessing} />
             <Route path="/development" component={FullstackDev} />
             <Route path="/dashboards" component={Dashboards} />
-            <Route path="/about" component={About} />
+            <Route path="/about" component={HistoryPage} />
             <Route path="/testimonials" component={Testimonials} />
-            <Route path="/legal-information" component={Legal_Information} />
-            <Route path="/trust-and-security" component={Trust_And_Security} />
+            <Route path="/legal-information" component={LegalInfo} />
+            <Route path="/trust-and-security" component={TrustSecurity} />
             <Route path="/cookies-policy" component={CookiesPolicy} />
             <Route path="/tests" component={tests} />
-            <Route path="*" component={Error_Page} />
+            <Route path="*" component={ErrorPage} />
           </Switch>
         </Router>
       )}

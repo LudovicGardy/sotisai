@@ -1,6 +1,6 @@
 import './Error_msg.css';
 
-function Error_Page() {
+function ErrorPage() {
     return (
         <div className="error_container">
             <h1>Oops 🙈 This page does not exist 👩🏼‍💻</h1>
@@ -8,4 +8,4 @@ function Error_Page() {
     )
 }
  
-export default Error_Page
+export default ErrorPage

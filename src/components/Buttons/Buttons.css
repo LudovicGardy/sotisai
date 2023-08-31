@@ -1,5 +1,5 @@
 :root {
-  --primary: #fff;
+  _primary: #fff;
 }
 
 .btn {
@@ -10,37 +10,37 @@
   cursor: pointer;
 }
 
-.btn--primary {
+.btn_primary {
   background-color: #fff;
   color: #242424;
   border: 1px solid #fff;
 }
 
-.btn--secondary {
+.btn_secondary {
   background-color: rgb(60,60,60);
   color: #fff;
   border: 1px solid rgb(50,50,50);
 }
 
-.btn--third {
+.btn_third {
   background-color: rgb(60,60,60);
   color: #fff;
   border: 1px solid rgb(50,50,50);
 }
 
-.btn--third:hover {
+.btn_third:hover {
   background-color: #fff;
   color: rgb(60,60,60);
   border: 1px solid rgb(60,60,60);
 }
 
-.btn--secondary:hover {
+.btn_secondary:hover {
   background-color: #fff;
   color: rgb(60,60,60);
   border: 1px solid rgb(60,60,60);
 }
 
-.btn--outline {
+.btn_outline {
   background-color: transparent;
   color: #242424;
   border: 1px solid #242424;
@@ -62,7 +62,7 @@
   margin: 6px;
 }
 
-.btn--reverse {
+.btn_reverse {
   background-color: transparent;
   color: #fff;
   padding: 8px 20px;
@@ -70,26 +70,26 @@
   transition: all 0.3s ease-out;
 }
 
-.btn--medium {
+.btn_medium {
   padding: 8px 20px;
 }
 
-.btn--large {
+.btn_large {
   padding: 12px 26px;
 }
 
-.btn--large2 {
+.btn_large2 {
   padding: 12px 26px;
 }
 
-.btn--large3 {
+.btn_large3 {
   /* font-size: 2vmin;
   font-size: 18px; */
 }
 
-.btn--outline:hover,
-.btn--large:hover,
-.btn--medium:hover {
+.btn_outline:hover,
+.btn_large:hover,
+.btn_medium:hover {
   transition: all 0.3s ease-out;
   color: rgba(167, 81, 252, 1);
   border: 3px solid rgba(167, 81, 252, 1);
@@ -97,7 +97,7 @@
   transition: 250ms;
 }
 
-/* .btn--primary:hover {
+/* .btn_primary:hover {
   background-color: transparent;
 } */
 

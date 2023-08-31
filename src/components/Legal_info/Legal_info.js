@@ -3,7 +3,7 @@ import "./Legal_info.css";
 import Footer from ".././Footer/Footer";
 
 
-function Legal_Information() {
+function LegalInfo() {
   return (
     <>
     <div className="legal_main">
@@ -53,4 +53,4 @@ function Legal_Information() {
   );
 }
 
-export default Legal_Information;
+export default LegalInfo;

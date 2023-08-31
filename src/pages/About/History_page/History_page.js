@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import styled from 'styled-components';
+import Footer from "../../../components/Footer/Footer";
 
 import "./History_page.css";
 import styles from './History_page.module.css';
 
-function About_Page() {
+function HistoryPage() {
 
     const [showArticles, setShowArticles] = useState(false);
     const [showPosters, setShowPosters] = useState(false);
@@ -176,9 +176,11 @@ function About_Page() {
             </div>
 
           </div>
-        
+
+          <Footer/>
+
         </>
       );
     }
   
-  export default About_Page;
+  export default HistoryPage;

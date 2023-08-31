@@ -3,7 +3,7 @@ import "./Legal_info/Legal_info.css";
 import Footer from "./Footer/Footer";
 
 
-function Trust_And_Security() {
+function TrustSecurity() {
   return (
     <>
     <div className="legal_main">
@@ -34,4 +34,4 @@ function Trust_And_Security() {
   );
 }
 
-export default Trust_And_Security;
+export default TrustSecurity;

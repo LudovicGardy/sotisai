@@ -6,7 +6,7 @@ function Partners() {
       <div id="partners_section">
         <article className="wrapper">
           <div className="marquee">
-            <div className="marquee__group">
+            <div className="marquee_group">
               <img
                 src="https://www.vectorlogo.zone/logos/python/python-horizontal.svg"
                 alt="python"
@@ -69,7 +69,7 @@ function Partners() {
               />
             </div>
 
-            <div aria-hidden="true" className="marquee__group">
+            <div aria-hidden="true" className="marquee_group">
               <img
                   src="https://www.vectorlogo.zone/logos/python/python-horizontal.svg"
                   alt="python"
@@ -133,8 +133,8 @@ function Partners() {
             </div>
           </div>
 
-          {/* <div className="marquee marquee--reverse">
-            <div className="marquee__group">
+          {/* <div className="marquee marquee_reverse">
+            <div className="marquee_group">
               <img
                 src="https://1000logos.net/wp-content/uploads/2020/08/MySQL-Logo.png"
                 alt="MySQL"
@@ -193,7 +193,7 @@ function Partners() {
               />
             </div>
 
-            <div aria-hidden="true" className="marquee__group">
+            <div aria-hidden="true" className="marquee_group">
               <img
                 src="https://1000logos.net/wp-content/uploads/2020/08/MySQL-Logo.png"
                 alt="MySQL"

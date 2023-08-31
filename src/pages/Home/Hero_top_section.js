@@ -1,7 +1,7 @@
 import React from "react";
 import "../../App.css";
 import { Button } from "../../components/Buttons/Buttons";
-import "./Heroo_section.css";
+import "./Hero_top_section.css";
 
 function HeroSection() {
   return (
@@ -22,16 +22,16 @@ function HeroSection() {
       <div className="hero-btns">
         <Button
           className="btns"
-          buttonStyle="btn--reverse"
-          buttonSize="btn--large"
+          buttonStyle="btn_reverse"
+          buttonSize="btn_large"
           redirection="/about"
         >
           HISTORY
         </Button>
         <Button
           className="btns" 
-          buttonStyle="btn--primary"
-          buttonSize="btn--large"
+          buttonStyle="btn_primary"
+          buttonSize="btn_large"
           redirection="/data-science"
         >
           DATA SCIENCE 
