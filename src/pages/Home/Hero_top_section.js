@@ -7,15 +7,15 @@ function HeroSection() {
   return (
     <div className="hero-container">
       <video
-        src="images/video/1080885575-sd.mp4"
+        src="images/video/1106690367-sd.mp4"
         autoPlay
         loop
         muted
       />
       <div className="video-overlay"></div> {/* Ajout de la div pour l'obscurcissement */}
       <div className="hero-title-container">
-        <h1 className="hero-h1">Empowering Solutions Through </h1>
-        <h1 className="hero-h1">Insightful Analytics</h1>
+        <h1 className="hero-h1 hero-h1-p1">Empowering Solutions Through </h1>
+        <h1 className="hero-h1 hero-h1-p2">Insightful Analytics</h1>
       </div>
       <h2 className="hero-h2">Data Science Solutions by Ludovic Gardy, Ph.D. </h2>
       <h2 className="hero-h2" style={{marginTop:'0px'}}>Serving France & Beyond</h2>

@@ -22,47 +22,54 @@ export const ButtonTestimonials = ({
       setShowModal(false);
     };
 
-  const handleSendComment_to_backend = async (event) => {
-    event.preventDefault();
+    const handleSendComment_to_backend = async (event) => {
+      event.preventDefault();
     // Pour envoyer des informations à un backend Python en utilisant Flask, 
     // vous pouvez faire une requête POST comme avant, mais vous devrez remplacer l'URL par celle de 
     // votre endpoint Flask. Par exemple, si votre serveur Flask est en cours 
     // d'exécution sur http://localhost:5000/api/comment
-  
+
     // N'oubliez pas que pour que cela fonctionne, votre serveur Flask doit être configuré pour accepter 
     // les requêtes de l'origine à partir de laquelle votre application React est servie. 
     // Vous pouvez le faire en utilisant l'extension Flask-CORS.
-  
+
     // Notez également que vous devez sécuriser votre serveur Flask avant de le mettre en production, 
-    // notamment en vous assurant que vous gérez correctement les erreurs et que vous utilisez HTTPS.  
-  
-    //const response = await fetch('http://localhost:5000/api/comment', {
-      try {
-        const response = await fetch('http://127.0.0.1:5000/api/submitTestimonial', {
-        // const response = await fetch('https://sotisanalytics-backend-da23f9895b9e.herokuapp.com/api/submitTestimonial', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ name, email, comment }),
-        });
+    // notamment en vous assurant que vous gérez correctement les erreurs et que vous utilisez HTTPS.       
+      const urls = [
+        'http://127.0.0.1:5000/api/submitTestimonial', 
+        'https://sotisanalytics-backend-da23f9895b9e.herokuapp.com/api/submitTestimonial'
+      ];
+      
+      for (const url of urls) {
+        try {
+          const response = await fetch(url, {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ name, email, comment }),
+          });
           
-        if (!response.ok) {
-          // Si la réponse n'est pas OK (200), affiche une erreur
-          throw new Error('Network response was not ok');
-        }
-    
-        const data = await response.json();
-        alert(`Thank you for your comment! It will be online soon. Have a great day! ID:${data.random_number}`);
-        handleCloseModal();
-    
-      } catch (error) {
+          if (!response.ok) {
+            throw new Error('Network response was not ok');
+          }
+      
+          const data = await response.json();
+          alert(`Thank you for your comment! It will be online soon. Have a great day! ID:${data.random_number}`);
+          handleCloseModal();
+          return; // Si le fetch réussit, sortez de la boucle et de la fonction
+        } catch (error) {
         // Ceci va attraper toute erreur provenant du fetch, y compris si la requête a échoué 
         // parce que le serveur est offline.
-        alert('Oops, an error has occured, maybe the backend server is offline.');
+          console.error(`Fetch failed for ${url}: ${error.message}`);
+        }
       }
+      
+      // Si on arrive ici, toutes les tentatives ont échoué
+      alert('Oops, an error has occurred, maybe the backend server is offline.');
     };
-  
+
+
   return (
     <div className='btn_testimonials_container'>
       <button
