@@ -75,6 +75,8 @@
 .social-icon-link {
   color: rgb(240,240,240);
   font-size: 24px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .social-media {
@@ -94,7 +96,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 240px;
+  /* width: 240px; */
 }
 
 .social-logo {

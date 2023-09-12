@@ -26,7 +26,7 @@ function Footer() {
             <a target="_blank" href="https://www.cnrs.fr/fr/la-recherche">Social impact</a>
           </div>
           <div className="footer-link-items">
-            <h2>Social</h2>
+            <h2>Research</h2>
             <a target="_blank" href="https://www.researchgate.net/profile/Ludovic-Gardy">Research Gate</a>
             <a target="_blank" href="https://scholar.google.fr/citations?user=eLO7NHwAAAAJ&hl=fr&oi=sra">Scholar</a>
             <a target="_blank" href="https://orcid.org/0000-0002-2977-8831">ORCID</a>
@@ -48,11 +48,11 @@ function Footer() {
           <small className="website-rights">React Technology © 2023</small>
           <div className="social-icons">
             <div className="social-icon-link youtube">
-                <a target="_blank" href="https://www.linkedin.com/in/ludovic-gardy/" className="fab fa-linkedin" id="linkedin"/>
+                <a target="_blank" href="https://www.linkedin.com/company/sotis-advanced-insights" className="fab fa-linkedin" id="linkedin"/>
             </div>
-            <div className="social-icon-link youtube">
+            {/* <div className="social-icon-link youtube">
               <a target="_blank" href="https://www.youtube.com/@halyziaavriomedtech5585" className="fab fa-youtube" id="youtube"/>
-            </div>
+            </div> */}
             <div className="social-icon-link github">
               <a target="_blank" href="https://github.com/LudovicGardy/Halyzia_neural_network" className="fab fa-github" id="github"/>
             </div>
