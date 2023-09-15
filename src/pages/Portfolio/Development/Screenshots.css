@@ -114,8 +114,8 @@
 
 .left_box_gif_screenshots {
     background-image: 
-    /* url("https://i.gifer.com/7Ntk.gif"); */
-    url("../../../../public/images/carousel_sotisAI/7Ntk.gif");
+    /* url("https://i.gifer.com/3aNP.gif"); */
+    url("../../../../public/images/carousel_sotisAI/3aNP.gif");
     background-size: cover;
     height: 100%;
 
@@ -123,6 +123,7 @@
     display: flex;
     justify-content: center;  /* Centrer horizontalement */
     align-items: center;  /* Centrer verticalement */
+    text-shadow: #fff 1px 0 10px;
 }
 
 

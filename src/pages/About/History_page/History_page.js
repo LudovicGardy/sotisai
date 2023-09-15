@@ -131,14 +131,14 @@ function HistoryPage() {
                 </ul>
             </div>
 
-            <div className="about-ending">
+            <div className="about_ending">
                 <h1>List of publications</h1>
                 <h3>Scientific articles</h3>
                     <button className="about_button"  onClick={() => setShowArticles(!showArticles)}>
                         Show content
                     </button>
                     {showArticles && (
-                    <div>
+                    <div className="about_paragraph">
                         <p>[In writting] <span>Gardy L.</span>, Curot J., Valton L., Berthier L., Barbeau E.J., Hurter C. <span>Halyzia: a CNN-based, computer-aided detection method of fast-ripples for both macro and micro electrodes in epilepsy.</span> publications planned for 2023.</p>
                         <p>Benaiteau M., Valton L., <span>Gardy L.</span>, Denuelle M., Debs R., Wucher V., Rulquin F., Barbeau E.J., Bonneville F., Pariente J., Curot J. <span>Specific profiles of new-onset vs non-inaugural status epilepticus: From diagnosis to 1-year outcome.</span> Frontiers in Neurology, 14, 1101370, 2022.</p>
                         <p>Joubert S., <span>Gardy L.</span>, Didic M., Rouleau I., Barbeau E.J. <span>A meta-analysis of semantic memory in prodromal Alzheimer’s Disease.</span> Neuropsychology Review, 31(2) : 221- 232, 2021.</p>

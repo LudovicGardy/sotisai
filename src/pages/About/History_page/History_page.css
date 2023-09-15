@@ -84,7 +84,7 @@
 }
 
 /* Ending */
-.about-ending {
+.about_ending {
     display: flex;
     flex-direction: column;
     align-self: left;
@@ -97,19 +97,19 @@
     align-self:center;
 }
 
-.about-ending h1 {
+.about_ending h1 {
     padding: 20px;
 }
 
-.about-ending h3 {
+.about_ending h3 {
     padding: 20px;
 }
 
-.about-ending p {
+.about_ending p {
     font-size: 18px;
 }
 
-.about-ending span {
+.about_ending span {
     font-weight: 500;
     color: rgb(50,50,50);
 }
@@ -120,6 +120,9 @@
     width: 200px;
     align-self: center;
     height: 50px;
+}
+
+.about_paragraph {
 }
 
 .about_button:hover {
@@ -157,7 +160,7 @@
 }  
 
 @media only screen and (max-width: 750px) {
-    .about-ending p {
+    .about_ending p {
         text-align: justify;
     }
 
