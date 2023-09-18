@@ -11,8 +11,11 @@ function TestimonialsCarousel() {
     // console.log(rndInt);
     // const [currentImageIndex, setCurrentImageIndex] = useState(rndInt);
 
+    let nbComments = 9
+    let rndInt = Math.floor(Math.random() * nbComments);
+
     const [testimonials, setTestimonials] = useState([]);
-    const [currentImageIndex, setCurrentImageIndex] = useState(0);
+    const [currentImageIndex, setCurrentImageIndex] = useState(rndInt);
   
     useEffect(() => {
       // Fonction pour récupérer les témoignages depuis l'API
