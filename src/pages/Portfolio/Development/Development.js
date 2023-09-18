@@ -68,7 +68,7 @@ function Fullstack_Dev() {
           <p>
           These stacks are by no means exhaustive but cover the majority of use-cases you're likely to encounter. 
           They offer a balanced mix of speed, scalability, and ease of deployment among other factors. 
-          While I've highlighted key performance indicators for each, it's worth noting that there are other combinations 
+          While I have highlighted key performance indicators for each, there are other combinations 
           and technical aspects that can be tailored to your specific needs.
           </p>
 

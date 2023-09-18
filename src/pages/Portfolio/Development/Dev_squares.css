@@ -33,12 +33,22 @@
     display: flex;
     flex-direction: column;
     background-color: #fff;
-    height: 250px;
+    height: 300px;
     width: 50%;
     margin: 10px;
     border: 1px solid rgb(50,50,50);
     padding: 20px;
     border-radius: 10px;
+}
+
+.devsquares_hbox a {
+    text-align: left;
+    color: rgba(175,125,250,1);
+}
+
+.devsquares_hbox span {
+    color: rgb(90,90,90);
+    font-weight: 500;
 }
 
 .devsquares_container h1 {
@@ -117,6 +127,10 @@
     .devsquares_container h1 {
         padding: 40px;
     }
+
+    .devsquares_hbox {
+        height: 350px;
+    }
     
 }
 
@@ -144,7 +158,7 @@
 
 @media only screen and (max-width: 900px) {
 .devsquares_hbox {
-    height: 350px;
+    height: 400px;
 }   
 
 .devsquares_hbox p {
@@ -152,7 +166,7 @@
 }    
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
 
 .devsquares_container {
     padding: 0;
