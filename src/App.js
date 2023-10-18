@@ -21,6 +21,7 @@ import LegalInfo from './components/Legal_info/Legal_info';
 import TrustSecurity from './components/Trust_security';
 import ErrorPage from './components/Error_msg/Error_msg';
 import tests from './pages/Tests/tests';
+import ResaAMT from './pages/ResaAMT/ResaAMT';
 import { InlineWidget, PopupWidget } from "react-calendly";
 
 function App() {
@@ -72,6 +73,7 @@ function App() {
             <Route path="/legal-information" component={LegalInfo} />
             <Route path="/trust-and-security" component={TrustSecurity} />
             <Route path="/cookies-policy" component={CookiesPolicy} />
+            <Route path="/AMT" component={ResaAMT} />
             <Route path="/tests" component={tests} />
             <Route path="*" component={ErrorPage} />
           </Switch>
