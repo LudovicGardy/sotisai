@@ -53,23 +53,23 @@ function HistoryPage() {
             <div className="about-transition">
                 <h1 className={styles.timelineh1}>Brief history</h1>
                 <ul className={styles.myUl}>
-                    <li className={styles.myLi} style={{'--accent-color': '#e24A68'}}>
-                        <div className={styles.myDate}>September 2023</div>
+                    <li className={styles.myLi} style={{'--accent-color': '#6e51a8'}}>
+                        <div className={styles.myDate}>June 2023</div>
                         <div className={styles.myTitle}>Founder of Sotis A.I.&#174;</div>
                         <div className={styles.myDescr}>Founded Sotis A.I.®, a company providing data science and development services to 
                         industries, academia, and healthcare centers.</div>
                     </li>
-                    <li className={styles.myLi} style={{'--accent-color': '#6e51a8'}}>
+                    {/* <li className={styles.myLi} style={{'--accent-color': '#6e51a8'}}>
                         <div className={styles.myDate}>August 2023</div>
                         <div className={styles.myTitle}>Co-founder of Avrio MedTech&#174;</div>
                         <div className={styles.myDescr}>Co-founded <a target="_blank" href="https://avriomedtech.com/">Avrio MedTech®</a>, a deep-tech startup focused on improving the diagnosis of 
                         drug-resistant epilepsy through the use of Halyzia®.</div>
-                    </li>
+                    </li> */}
                     <li className={styles.myLi} style={{'--accent-color': '#3c3c4b'}}>
-                        <div className={styles.myDate}>December 2021</div>
+                        <div className={styles.myDate}>December 2022</div>
                         <div className={styles.myTitle}>Award RISE, CNRS</div>
-                        <div className={styles.myDescr}>Received the RISE award from CNRS Innovation, which supports startups with innovative projects 
-                        using technologies developed in CNRS labs.</div>
+                        <div className={styles.myDescr}>Received the RISE award from CNRS Innovation, which supports startups with innovative projects.</div> 
+                        {/* using technologies developed in CNRS labs.</div> */}
                     </li>   
                     <li className={styles.myLi} style={{'--accent-color': '#e24A68'}}>
                         <div className={styles.myDate}>Oct. 2021 - June 2023</div>
