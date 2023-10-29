@@ -27,7 +27,7 @@ export const ButtonTestimonials = ({
     // Pour envoyer des informations à un backend Python en utilisant Flask, 
     // vous pouvez faire une requête POST comme avant, mais vous devrez remplacer l'URL par celle de 
     // votre endpoint Flask. Par exemple, si votre serveur Flask est en cours 
-    // d'exécution sur http://localhost:5000/api/comment
+    // d'exécution sur http://localhost:8000/api/comment
 
     // N'oubliez pas que pour que cela fonctionne, votre serveur Flask doit être configuré pour accepter 
     // les requêtes de l'origine à partir de laquelle votre application React est servie. 
@@ -36,7 +36,7 @@ export const ButtonTestimonials = ({
     // Notez également que vous devez sécuriser votre serveur Flask avant de le mettre en production, 
     // notamment en vous assurant que vous gérez correctement les erreurs et que vous utilisez HTTPS.       
       const urls = [
-        'http://127.0.0.1:5000/api/submitTestimonial', 
+        'http://127.0.0.1:8000/api/submitTestimonial', 
         'https://sotisanalytics-backend-da23f9895b9e.herokuapp.com/api/submitTestimonial'
       ];
       

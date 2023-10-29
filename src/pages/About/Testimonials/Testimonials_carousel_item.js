@@ -21,7 +21,7 @@ function TestimonialsCarousel() {
       // Fonction pour récupérer les témoignages depuis l'API
       async function fetchData() {
         try {
-          // const response = await fetch('http://127.0.0.1:5000/api/getData');
+          // const response = await fetch('http://127.0.0.1:8000/api/getData');
           const response = await fetch('https://sotisanalytics-backend-da23f9895b9e.herokuapp.com/api/getData');
           if (!response.ok) {
             throw new Error('Network response was not ok');
