@@ -6,7 +6,7 @@ import { Fade } from 'react-reveal';
 import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
 
  
-const apiKey = 'AIzaSyCBR3t3sAmSmiveRBhLvUi6hDRIgC5wTq4';
+const apiKey = 'AIzaSyDPxWsYNUh76-tPtsnONUQ8I0eSu-ZkSco';
 
 const mapStyles = {
     width: "100%",
