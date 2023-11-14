@@ -72,15 +72,15 @@ function Data_Science() {
             </div>
             <ul className="services-content-ul">
               <li><FontAwesomeIcon icon={faPersonCircleQuestion} title="Problem or request" className="services-icon"/> 
-              How can we create an intuitive tool to analyze and visualize real estate prices across France, leveraging online reliable data?</li>
+              Creation of an intuitive web app to analyze and visualize and understand real estate prices across France</li>
               <li><FontAwesomeIcon icon={faScrewdriverWrench} title="Tools" className="services-icon"/> 
-              Employed Python with Streamlit for web app interface, Spark for data processing, Firebase for online noSQL database management, Heroku for web hosting.</li>
+              Python · Streamlit · Spark · Databricks · Azure SQL · Snowflake · DBT · Google Firebase · Google Analytics · Heroku · OVH · AWS S3 · Selenium web scraping · Github.</li>
               <li><FontAwesomeIcon icon={faSliders} title="Methods" className="services-icon"/> 
-              Integrated official French government datasets to provide up-to-date, accurate insights into real estate trends.</li>
+              Integrated official government datasets and scraped data over real estate agencies to provide up-to-date, accurate insights into real estate trends.</li>
               <li><FontAwesomeIcon icon={faHandshake} title="Delivered to (organization)" className="services-icon"/> 
-              Developed as a personal project. <a target="_blank" href="https://immo.sotisanalytics.com" className="advertise_link">Click here to start the app <FontAwesomeIcon icon={faRocket} title="Date" className="services-icon subtitle-icons"/></a></li>
+              Developed as an open source project: <a target="_blank" href="https://immo.sotisanalytics.com" className="advertise_link">click here to start the app <FontAwesomeIcon icon={faRocket} title="Date" className="services-icon subtitle-icons"/></a></li>
               <li><FontAwesomeIcon icon={faCircleInfo} title="Additional info." className="services-icon"/> 
-              The application is user-friendly, offering easy navigation and tailored insights to a wide range of users from potential homebuyers to real estate professionals.</li>
+              User-friendly web app, offering easy navigation and tailored insights to a wide range of users from potential homebuyers to real estate professionals.</li>
             </ul>
           </div>
           <div className="services-content-img" onClick={() => openModal("/images/LG_services/data_science/sotisimmobilier.jpg")}>
@@ -100,13 +100,13 @@ function Data_Science() {
             </div>
             <ul className="services-content-ul">
               <li><FontAwesomeIcon icon={faPersonCircleQuestion} title="Problem or requet" className="services-icon"/> 
-              How can we develop specialized GPT AI chatbots that cater to diverse business requirements, and can adapt their personalities as per the needs?</li>
+              Training of specific language models, before the advent of current simplified techniques.</li>
               <li><FontAwesomeIcon icon={faScrewdriverWrench} title="Tools" className="services-icon"/> 
-              Utilized Python, Transformers, OpenAI API.</li>
+              Python · PyQt · LLM Transformers · Langchain parsing and embedding · Pinecone verctor databse · OpenAI API · AWS EC2 · Github.</li>
               <li><FontAwesomeIcon icon={faSliders} title="Methods" className="services-icon"/> 
               Leveraged data from various sources such as French Labor Code, Digestive Oncology Thesaurus, sports books, and customer information for model training.</li>
               <li><FontAwesomeIcon icon={faHandshake} title="Delivered to (organization)" className="services-icon"/> 
-              Developed as a personal project.</li>
+              Developed as a sandbox project.</li>
               <li><FontAwesomeIcon icon={faCircleInfo} title="Additional info." className="services-icon"/> 
               Tackled a straightforward problem where a unique model was trained for each bot. While these models are experts, they can be tailored to mimic anyone.</li>
             </ul>
@@ -121,13 +121,13 @@ function Data_Science() {
             </div>
             <ul className="services-content-ul">
               <li><FontAwesomeIcon icon={faPersonCircleQuestion} title="Problem or requet" className="services-icon"/> 
-              Can AI surpass other algorithms and human judgement in detecting subtle epileptic focus biomarkers in the brains of drug-resistant patients?</li>
+              Creation of AI that surpasses human judgement in detecting subtle pathological electric signals in the brain of drug-resistant patients.</li>
               <li><FontAwesomeIcon icon={faScrewdriverWrench} title="Tools" className="services-icon"/> 
-              Utilized Python, R, TensorFlow, SQL and NoSQL databases.</li>
+              Python · PyQt · PostgreSQL · MongoDB · JSON · Deep learning · CNN · Google Colab · LaTeX · Markdown · Gitlab.</li>
               <li><FontAwesomeIcon icon={faSliders} title="Methods" className="services-icon"/> 
-              Performed data collection, data engineering, EEG, deep learning, and multivariate statistics.</li>
+              Led and performed from scratch AI model training, Brain signal (EEG, MRI, CT scans) time-ferquency analyses, API design, App design.</li>
               <li><FontAwesomeIcon icon={faHandshake} title="Delivered to (organization)" className="services-icon"/> 
-              Executed project deliverables for CNRS, and Purpan Hospital of Toulouse.</li>
+              Executed project deliverables for CNRS, Purpan Hospital of Toulouse and Civil Aviation Engineering Department.</li>
               <li><FontAwesomeIcon icon={faCircleInfo} title="Additional info." className="services-icon"/> 
               Part of a 5-year project. This innovation has been <a target="_blank" href="https://data.inpi.fr/brevets/FR3128111">patented</a>. A scientific paper is on its way to publication. The technology is being used by <a target="_blank" href="https://avriomedtech.com">Avrio MedTech®</a>.</li>
             </ul>
@@ -148,11 +148,11 @@ function Data_Science() {
             </div>
             <ul className="services-content-ul">
               <li><FontAwesomeIcon icon={faPersonCircleQuestion} title="Problem or requet" className="services-icon"/> 
-              How effective are the new-generation hybrid macro/micro-electrodes, implanted in the brains of drug-resistant epileptic patients, at recording epilepsy biomarkers?</li>
+              Evaluation of a new generation of electrodes to record new epilepsy biomarkers.</li>
               <li><FontAwesomeIcon icon={faScrewdriverWrench} title="Tools" className="services-icon"/> 
-              Utilized Python, R, SQL and NoSQL databases.</li>
+              Python · R · MySQL · Redis · JSON · Deep learning · CNN · Google Colab · LaTeX · Markdown · Gitlab.</li>
               <li><FontAwesomeIcon icon={faSliders} title="Methods" className="services-icon"/> 
-              Engaged in medical data collection and engineering, deep learning, multivariate statistics.</li>
+              Led and performed from scratch data governance | collection | engineering, AI model training, Brain signal (EEG) time-ferquency analyses.</li>
               <li><FontAwesomeIcon icon={faHandshake} title="Delivered to (organization)" className="services-icon"/> 
               Executed project deliverables for CNRS, and Purpan Hospital of Toulouse. Worked with DIXI Medical®.</li>
               <li><FontAwesomeIcon icon={faCircleInfo} title="Additional info." className="services-icon"/> 
@@ -172,11 +172,11 @@ function Data_Science() {
               <li><FontAwesomeIcon icon={faPersonCircleQuestion} title="Problem or requet" className="services-icon"/> 
               Do individuals immersed in virtual reality environments retain memory to the same degree or better than those in augmented reality or real-world settings?</li>
               <li><FontAwesomeIcon icon={faScrewdriverWrench} title="Tools" className="services-icon"/> 
-              Utilized R and concise data tables.</li>
+              Python · R · Excel · Azure SQL.</li>
               <li><FontAwesomeIcon icon={faSliders} title="Methods" className="services-icon"/> 
-              Leveraged mixed-effect models and binomial probabilities.</li>
+              Leveraged data visualization, mixed-effect models and binomial probabilities.</li>
               <li><FontAwesomeIcon icon={faHandshake} title="Delivered to (organization)" className="services-icon"/> 
-              Collaborated with Civil Aviation lab fellows.</li>
+              Collaborated with French Civil Aviation Computing Department fellows.</li>
               <li><FontAwesomeIcon icon={faCircleInfo} title="Additional info." className="services-icon"/> 
               A quick project lasting less than a week.</li>
             </ul>
@@ -200,13 +200,13 @@ function Data_Science() {
               <li><FontAwesomeIcon icon={faPersonCircleQuestion} title="Problem or requet" className="services-icon"/> 
               Which factors contribute to understanding and predicting the long-term outcomes, including mortality, in chronic epileptic patients?</li>
               <li><FontAwesomeIcon icon={faScrewdriverWrench} title="Tools" className="services-icon"/> 
-              Utilized Python, R, and SQL databases.</li>
+              Python · R · Azure SQL · NoSQL · Github.</li>
               <li><FontAwesomeIcon icon={faSliders} title="Methods" className="services-icon"/> 
-              Conducted feature selection and applied mixed effects models.</li>
+              Conducted data cleaning | engineering | visualization, and applied feature selection, linear regression, mixed effects models.</li>
               <li><FontAwesomeIcon icon={faHandshake} title="Delivered to (organization)" className="services-icon"/> 
               Executed project deliverables for CNRS, and Purpan Hospital of Toulouse.</li>
               <li><FontAwesomeIcon icon={faCircleInfo} title="Additional info." className="services-icon"/> 
-              A 2-week mission. A <a target="_blank" href="https://github.com/LudovicGardy/Status_epilepticus/blob/main/Epicea_analyses.ipynb">public repository</a> is available on github, and a <a target="_blank" href="https://www.frontiersin.org/articles/10.3389/fneur.2023.1101370/full">scientific paper</a> has been published.</li>
+              A mission that was spread over time. A <a target="_blank" href="https://github.com/LudovicGardy/Status_epilepticus/blob/main/Epicea_analyses.ipynb">public repository</a> is available on Github, and a <a target="_blank" href="https://www.frontiersin.org/articles/10.3389/fneur.2023.1101370/full">scientific paper</a> has been published.</li>
             </ul>
           </div>
         </div>
@@ -222,13 +222,13 @@ function Data_Science() {
               <li><FontAwesomeIcon icon={faPersonCircleQuestion} title="Problem or requet" className="services-icon"/> 
               Can we discern the influence of different antibody categories on cognitive decline in patients from a vast array of potential predictors?</li>
               <li><FontAwesomeIcon icon={faScrewdriverWrench} title="Tools" className="services-icon"/> 
-              Utilized R, raw medical files and tables.</li>
+              Python · R · Excel · PostgreSQL · Github.</li>
               <li><FontAwesomeIcon icon={faSliders} title="Methods" className="services-icon"/> 
-              Deployed machine learning for feature selection and patient classification, modeling, multivariate statistics, and Principal Component Analysis (PCA).</li>
+              Conducted data cleaning | engineering | visualization | modeling, and applied Principal Component Analysis (PCA), feature selection, mixed effects models, machine learning.</li>
               <li><FontAwesomeIcon icon={faHandshake} title="Delivered to (organization)" className="services-icon"/> 
               Executed project deliverables for Purpan Hospital of Toulouse.</li>
               <li><FontAwesomeIcon icon={faCircleInfo} title="Additional info." className="services-icon"/> 
-              A week-long project.</li>
+              A mission that was spread over time. A medical thesis was published based on these results.</li>
             </ul>
           </div>
           <div className="services-content-img" onClick={() => openModal("/images/LG_services/data_science/antibodies.jpg")}>
@@ -250,13 +250,13 @@ function Data_Science() {
               <li><FontAwesomeIcon icon={faPersonCircleQuestion} title="Problem or requet" className="services-icon"/> 
               How does the size of emotional brain structures, such as the amygdala, affect psychiatric conditions?</li>
               <li><FontAwesomeIcon icon={faScrewdriverWrench} title="Tools" className="services-icon"/> 
-              Utilized R, MRI measurements, medical tables.</li>
+              R · MRI measurements · medical tables and documents (excel, csv, pdf).</li>
               <li><FontAwesomeIcon icon={faSliders} title="Methods" className="services-icon"/> 
               Applied linear regressions, mixed effect models, and conducted parametric and non-parametric statistical analyses.</li>
               <li><FontAwesomeIcon icon={faHandshake} title="Delivered to (organization)" className="services-icon"/> 
               Partnered with CNRS fellows.</li>
               <li><FontAwesomeIcon icon={faCircleInfo} title="Additional info." className="services-icon"/> 
-              A quick, less-than-a-week project.</li>
+              A little but spread over time project.</li>
             </ul>
           </div>
         </div>
@@ -270,13 +270,13 @@ function Data_Science() {
             </div>
             <ul className="services-content-ul">
               <li><FontAwesomeIcon icon={faPersonCircleQuestion} title="Problem or requet" className="services-icon"/> 
-              How can we design a database architecture compatible with our software to handle the massive, complex data (time series, metadata) generated by our algorithm?</li>
+              Design a database architecture to handle massive and complex data (time series, images, tables, documents, metadata), for specific requirements.</li>
               <li><FontAwesomeIcon icon={faScrewdriverWrench} title="Tools" className="services-icon"/> 
-              Python, NoSQL databases.</li>
+              Python · MongoDB · PostgreSQL · Elasticsearch · JSON.</li>
               <li><FontAwesomeIcon icon={faSliders} title="Methods" className="services-icon"/> 
-              Executed data collection, EEG, data engineering, and data anonymization.</li>
+              Led and executed data governance | collection | cleaning | anonymisation | engineering.</li>
               <li><FontAwesomeIcon icon={faHandshake} title="Delivered to (organization)" className="services-icon"/> 
-              Executed project deliverables for CNRS, and Civil Aviation lab.</li>
+              Executed project deliverables for CNRS, and Civil Aviation Computing Department.</li>
               <li><FontAwesomeIcon icon={faCircleInfo} title="Additional info." className="services-icon"/> 
               Part of a 3-year project. This data structure has been registered with the Program Protection Agency.</li>
             </ul>
@@ -298,11 +298,11 @@ function Data_Science() {
             </div>
             <ul className="services-content-ul">
               <li><FontAwesomeIcon icon={faPersonCircleQuestion} title="Problem or requet" className="services-icon"/> 
-              How can unconventional intracerebral hybrid EEG data be made compatible with data management standards?</li>
+              Standardization of data formats and structures to facilitate transparency, storage, sharing and analysis.</li>
               <li><FontAwesomeIcon icon={faScrewdriverWrench} title="Tools" className="services-icon"/> 
-              Python, proprietary formats (edf, nsX, nrd, ncs, med), SQL and NoSQL databases.</li>
+              Python · Matlab · proprietary formats (edf, nsX, nrd, ncs, med) · JSON.</li>
               <li><FontAwesomeIcon icon={faSliders} title="Methods" className="services-icon"/> 
-              Conducted medical data collection, engineering, anonymization, and database design.</li>
+              Conducted medical data governance | collection | anonymization | engineering.</li>
               <li><FontAwesomeIcon icon={faHandshake} title="Delivered to (organization)" className="services-icon"/> 
               Executed project deliverables for CNRS, and Civil Aviation lab.</li>
               <li><FontAwesomeIcon icon={faCircleInfo} title="Additional info." className="services-icon"/> 
@@ -321,9 +321,9 @@ function Data_Science() {
               <li><FontAwesomeIcon icon={faPersonCircleQuestion} title="Problem or requet" className="services-icon"/> 
               Can a thorough and early examination of semantic memory disorders serve as an early indicator of Alzheimer's disease?</li>
               <li><FontAwesomeIcon icon={faScrewdriverWrench} title="Tools" className="services-icon"/> 
-              Utilized Python, R.</li>
+              Python · R · Excel · MySQL · LaTeX · Markdown · Github.</li>
               <li><FontAwesomeIcon icon={faSliders} title="Methods" className="services-icon"/> 
-              Employed data collection, effect size, and meta-analysis.</li>
+              Led and executed data collection | cleaning | storage, calculation of effect sizes, and meta-analysis.</li>
               <li><FontAwesomeIcon icon={faHandshake} title="Delivered to (organization)" className="services-icon"/> 
               Executed project deliverables for France Alzheimer, Alzheimer Society (Canada), CNRS, and the University of Montreal.</li>
               <li><FontAwesomeIcon icon={faCircleInfo} title="Additional info." className="services-icon"/> 
@@ -349,9 +349,9 @@ function Data_Science() {
               <li><FontAwesomeIcon icon={faPersonCircleQuestion} title="Problem or requet" className="services-icon"/> 
               How do the brain processes triggered by mental imagery compare to those triggered by visual perception?</li>
               <li><FontAwesomeIcon icon={faScrewdriverWrench} title="Tools" className="services-icon"/> 
-              Utilized R, Matlab, Python.</li>
+              R · Matlab · Python · Machine Learning · LaTeX · MySQL · Gitlab.</li>
               <li><FontAwesomeIcon icon={faSliders} title="Methods" className="services-icon"/> 
-              Conducted clinical data collection, data anonymization, and utilized Random Forest and SVM for classification, and Multivariate Pattern Analysis (MVPA).</li>
+              Conducted clinical data collection | cleaning | anonymization, and utilized Random Forest and SVM for classification, and Multivariate Pattern Analysis (MVPA).</li>
               <li><FontAwesomeIcon icon={faHandshake} title="Delivered to (organization)" className="services-icon"/> 
               Executed project deliverables for CNRS.</li>
               <li><FontAwesomeIcon icon={faCircleInfo} title="Additional info." className="services-icon"/> 
@@ -371,9 +371,9 @@ function Data_Science() {
               <li><FontAwesomeIcon icon={faPersonCircleQuestion} title="Problem or requet" className="services-icon"/> 
               Can spatial orientation disorders be effectively utilized as predictors for the pre-clinical stages of Alzheimer's disease?</li>
               <li><FontAwesomeIcon icon={faScrewdriverWrench} title="Tools" className="services-icon"/> 
-              Utilized Python, R.</li>
+              R · Excel · LaTeX · Markdown · Gitlab.</li>
               <li><FontAwesomeIcon icon={faSliders} title="Methods" className="services-icon"/> 
-              Involved in medical data collection and engineering, SVM for classification, and linear regressions for predictions.</li>
+              Involved in medical data collection | cleaning | engineering, executed SVM for classification and linear regressions for predictions.</li>
               <li><FontAwesomeIcon icon={faHandshake} title="Delivered to (organization)" className="services-icon"/> 
               Executed project deliverables for CNRS, and Civil Aviation lab.</li>
               <li><FontAwesomeIcon icon={faCircleInfo} title="Additional info." className="services-icon"/> 
@@ -398,7 +398,7 @@ function Data_Science() {
               <li><FontAwesomeIcon icon={faPersonCircleQuestion} title="Problem or requet" className="services-icon"/> 
               Given a large set of potential predictors, can we identify the effect of different antibody categories on cognitive decline in patients?</li>
               <li><FontAwesomeIcon icon={faScrewdriverWrench} title="Tools" className="services-icon"/> 
-              Utilized R, Matlab.</li>
+              R · Matlab · Excel · Markdown · Gitlab.</li>
               <li><FontAwesomeIcon icon={faSliders} title="Methods" className="services-icon"/> 
               Conducted medical data collection and cleaning, utilized SVM for classification, and performed Principal Component Analysis (PCA).</li>
               <li><FontAwesomeIcon icon={faHandshake} title="Delivered to (organization)" className="services-icon"/> 
@@ -420,13 +420,13 @@ function Data_Science() {
               <li><FontAwesomeIcon icon={faPersonCircleQuestion} title="Problem or requet" className="services-icon"/> 
               Can the modulation of PI3K in healthy and breast cancer cells influence collective or individual cell migration and the disease's invasive potential?</li>
               <li><FontAwesomeIcon icon={faScrewdriverWrench} title="Tools" className="services-icon"/> 
-              Utilized R, 2-dimensional images, RT-qPCR tables.</li>
+              R · Excel · Microscopy · RT-qPCR tables.</li>
               <li><FontAwesomeIcon icon={faSliders} title="Methods" className="services-icon"/> 
               Applied linear regressions and parametric statistical analyses.</li>
               <li><FontAwesomeIcon icon={faHandshake} title="Delivered to (organization)" className="services-icon"/> 
               Worked closely with INSERM fellows.</li>
               <li><FontAwesomeIcon icon={faCircleInfo} title="Additional info." className="services-icon"/> 
-              A rapid, 2-day mission.</li>
+              A one shot project.</li>
             </ul>
           </div>
           <div className="services-content-img" onClick={() => openModal("/images/LG_services/data_science/RTqPCR.jpg")}>
