@@ -446,7 +446,7 @@ function Data_Science() {
           currentImage={currentImage} 
       />
 
-      <Partners/>
+      {/* <Partners/> */}
       <Footer/>
 
     </>

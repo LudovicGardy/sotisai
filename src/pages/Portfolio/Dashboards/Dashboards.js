@@ -60,7 +60,7 @@ function Dashboards() {
 
     </div>
 
-    <Partners/>
+    {/* <Partners/> */}
     <Footer/>
 
     </>

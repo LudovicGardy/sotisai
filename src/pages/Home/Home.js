@@ -17,7 +17,7 @@ function Home() {
       <Introduction />
       <Cards />
       <Parallax />
-      <Partners />
+      {/* <Partners /> */}
       <Footer />
     </>
   );

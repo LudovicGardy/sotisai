@@ -222,7 +222,7 @@ function Signal_Processing() {
           currentImage={currentImage} 
       />
 
-      <Partners/>
+      {/* <Partners/> */}
       <Footer/>
 
     </>

@@ -13,8 +13,8 @@ function Cards() {
           <div>
             <Card_item
               src="/images/LG_imgs/img5.png"
-              text="Project design and data collection"
-              label="CREATE"
+              // text="Project design and data collection"
+              label="DATA GOVERNANCE"
               path="/services"
               // href="https://www.linkedin.com/in/ludovic-gardy/"
               />
@@ -22,9 +22,9 @@ function Cards() {
 
             <div className="cards__lateral">
             <Card_item
-              src="/images/LG_imgs/img2.png"
-              text="Statistical analysis and modeling"
-              label="EXPLORE"
+              src="/images/LG_imgs/img1.png"
+              // text="Statistical analysis and modeling"
+              label="DATA ENGINEERING"
               path="/services"
               // href="https://www.linkedin.com/in/ludovic-gardy/"
             />
@@ -34,9 +34,9 @@ function Cards() {
           <div className="cards__wrapper">
             <div className="cards__center">
             <Card_item
-              src="/images/LG_imgs/img4.png"
-              text="Storytelling and dashboards"
-              label="UNDERSTAND"
+              src="/images/LG_imgs/img6.png"
+              // text="Storytelling and dashboards"
+              label="DATA ANALYTICS"
               path="/services"
               // href="https://www.linkedin.com/in/ludovic-gardy/"
               />
@@ -45,8 +45,8 @@ function Cards() {
             <div className="cards__center">
             <Card_item
               src="/images/LG_imgs/img3.png"
-              text="Machine learning and MLOps"
-              label="PREDICT & DETECT"
+              // text="Machine learning and MLOps"
+              label="MACHINE LEARNING"
               path="/services"
               // href="https://www.linkedin.com/in/ludovic-gardy/"
               />
@@ -57,9 +57,9 @@ function Cards() {
 
             <div className="cards__lateral">
             <Card_item
-              src="/images/LG_imgs/img1.png"
-              text="Smart data management"
-              label="UNLOCK"
+              src="/images/LG_imgs/img4.png"
+              // text="Smart data management"
+              label="DEPLOYMENT | MLOps"
               path="/services"
               // href="https://www.linkedin.com/in/ludovic-gardy/"
               />
@@ -67,9 +67,9 @@ function Cards() {
 
             <div>
             <Card_item
-              src="/images/LG_imgs/img6.png"
-              text="Decision support and automation"
-              label="ENPOWER"
+              src="/images/LG_imgs/img2.png"
+              // text="Decision support and automation"
+              label="REPORTING"
               path="/services"
               // href="https://www.linkedin.com/in/ludovic-gardy/"
               />

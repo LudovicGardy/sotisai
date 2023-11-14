@@ -8,12 +8,12 @@ function Testimonials() {
         <>
         <div className="testimonials-container">
     
-            <div className="services-banner">
+            <div className="services-banner testimonials-banner">
                 <img src="/images/LG_banners/testimonials/format_L.jpg"></img>
                 <h1 className= "banners-title">Testimonials</h1>
             </div>
 
-            <div className="testimonials-transition">
+            {/* <div className="testimonials-transition">
                 <h1>Did we work together? Tell me what you think!</h1>
             </div>
             <div className="testimonials-content">
@@ -33,7 +33,7 @@ function Testimonials() {
                         </blockquote>
                     </figure>
                 </div>
-        </div>
+        </div> */}
 
         <TestimonialsCarousel/>
 

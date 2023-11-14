@@ -21,7 +21,7 @@ function HistoryPage() {
 
               <div className="testimonials-container">
 
-                <div className="testimonials-transition">
+                {/* <div className="testimonials-transition">
                     <h1>Turning your data into a valuable product</h1>
                 </div>
                 <div className="testimonials-content reverse-flex-row">
@@ -45,7 +45,7 @@ function HistoryPage() {
                             </blockquote>
                         </figure>
                     </div>
-                </div>
+                </div> */}
 
             </div>
 

@@ -13,6 +13,13 @@ import { Fade } from 'react-reveal';
 
 // Ludovic Gardy, data scientist indépendant et fondateur de Sotis A.I. couvre vos besoins sur l'ensemble du cycle de vie de vos données, pour des missions de conseil, de formation, de développement et de recherche, toute durée.
 
+{/* <p>Construire une solution technologique basée sur les données en respectant les standards de qualité et de durabilité les plus élevés est difficile. 
+Je peux vous aider à construire et concevoir : <span>Une architecture de données adaptée à vos besoins</span> | Des modèles 
+d'intelligence artificielle performants | <span>Des solutions de visualisation de données interactives et intuitives</span> | <span> Des
+ solutions de traitement de données en temps réel</span> | Des solutions de traitement de données à grande échelle | <span>Des 
+  solutions de traitement de données sécurisées</span> |Des solutions de traitement de données éthiques.
+</p> */}
+
 function Introduction() {
   return (
     <div className="intro_container">
@@ -20,23 +27,23 @@ function Introduction() {
         <Fade duration={2000}>
         <div className="intro_text">
           <h1>
-            Turn data into insight, and insight into action
+            Your Data Can Transform the World, Let's Transform Your Data
           </h1>
           <p>
-          With Sotis A.I, leverage premier data science and artificial intelligence expertise for your projects. 
-          Enhance your business by engaging an experienced and trusted data expert, poised to provide sustainable, scalable, flexible, 
-          and agile support in your company's digital evolution. Ludovic Gardy, independent data scientist and founder of Sotis A.I., 
-          caters to your needs across the full data lifecycle, including engineering, consulting, training, research, development, 
-          and deployment.
+            Building a data-driven technological solution that adheres to the highest standards of quality and sustainability is challenging. 
+            I am here to assist you in constructing and designing: <span>A data architecture tailored to your needs</span> | High-performance 
+            artificial intelligence models | <span>Interactive and intuitive data visualization solutions</span> | Real-time data processing 
+            solutions | <span>Large-scale data processing solutions</span> | Secure data processing solutions | <span>Ethical data processing 
+            solutions.</span>
           </p>
-         
-          <div className="moving_text">
+
+          {/* <div className="moving_text">
             <MovingComponent
               type="typewriter"
               dataText={["Decode your business metrics", "Surpass expectations"]}
               className="moving_text"
             />
-          </div>
+          </div> */}
         </div>
         </Fade>
       </div>

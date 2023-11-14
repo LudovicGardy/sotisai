@@ -60,22 +60,14 @@ function Fullstack_Dev() {
 
         <div className="services-transition">
           <p>
-          In the ever-evolving landscape of technology, choosing the right stack for your project is a strategic decision. 
-          The frameworks and languages presented in the boxes below are versatile options that can cater to a wide range of needs, 
-          whether you're operating on a small or large scale, with abundant or limited resources, and time constraints.
+          My role as a data science expert is not to develop applications, but it is a field that 
+          I know well and which allows me to address broader issues by offering plug-and-play solutions, when necessary.
           </p>
 
-          <p>
-          These stacks are by no means exhaustive but cover the majority of use-cases you're likely to encounter. 
-          They offer a balanced mix of speed, scalability, and ease of deployment among other factors. 
-          While I have highlighted key performance indicators for each, there are other combinations 
-          and technical aspects that can be tailored to your specific needs.
-          </p>
-
-          <p>
-          Feel free to explore the ratings in the boxes below and hover over each point for more context. 
-          This section aims to provide a concise, actionable overview to guide your decision-making process.
-          </p>
+          <p> 
+          This page highlights some complete solutions that I have developed, 
+          presenting the technology used for the frontend and that used for the backend, 
+          with a note to explain the choice of technology as well as their advantages and disadvantages.</p>
         </div>
 
         <div className="services-start" style={{paddingLeft: '0px', paddingTop: '0px', width:'95%'}}>
@@ -89,7 +81,7 @@ function Fullstack_Dev() {
       </div>
 
       <Dev_squares />
-      <Partners />
+      {/* <Partners /> */}
       <Footer />
     </>
   );
