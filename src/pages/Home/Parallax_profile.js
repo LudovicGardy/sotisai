@@ -32,7 +32,7 @@ function Profile() {
                     understand and resolve any challenges encountered.</p>
 
                 <figcaption className="figcaption">
-                    <span className="figcaption-span-services">Ludovic</span>
+                    <span className="figcaption-span-services" style={{ backgroundColor: 'white' }}>Ludovic</span>
                 </figcaption>
             </blockquote>
         </figure>
