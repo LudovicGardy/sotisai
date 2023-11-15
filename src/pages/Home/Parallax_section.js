@@ -106,7 +106,7 @@ function Parallax() {
                                         <li><span>Machine Learning and AI:</span> Embeddings, Computer Vision, CNN, LLM, NLP</li>
                                         <li><span>NLP Integration and Models:</span> OpenAI API, Langchain, Llama</li>
                                         <li><span>Model Deployment and Serving:</span> TensorFlow Serving, MLflow, TorchServe</li>
-                                        <li><span>Experiment Tracking and Versioning:</span> MLflow, DVC (Data Version Control)P</li>
+                                        <li><span>Experiment Tracking and Versioning:</span> MLflow, DVC (Data Version Control)</li>
                                         <li><span>Model Monitoring and Management:</span> Prometheus, Grafana, Evidently AI</li>
                                         <li><span>Workflow Automation:</span> Github Actions, Apache Airflow, Jenkins</li>                                       
                                         {/* <li><span>Workflow Automation:</span> Kubeflow, Apache Airflow, Jenkins</li>                                        */}
