@@ -20,7 +20,12 @@ function Parallax() {
 
         <div className="parallax-inner">
 
-        <div className="testimonials-content">
+
+
+            {/* <Fade duration={2000}> */}
+            <div className="container-box-parallax">
+
+            <div className="testimonials-content">
             <div className="testimonials-content-img">
                 <img src="/images/gardy_black_bg.jpg"></img>
             </div>
@@ -54,9 +59,6 @@ function Parallax() {
                 </figure>
             </div> 
         </div>
-
-            {/* <Fade duration={2000}> */}
-            <div className="container-box-parallax">
 
                 <div className="horizontal-box-parallax">
 

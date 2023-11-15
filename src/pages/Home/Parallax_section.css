@@ -41,6 +41,9 @@
   .parallax-inner {
     position: relative;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     flex-direction: row;
     width: 90%;
     height: "auto"; /*90%;*/
@@ -61,7 +64,6 @@
   }
   
   .container-box-parallax {
-    border-radius: 20px;
     height: 100%;
     width: 100%;
     max-width: 1500px;
@@ -78,8 +80,6 @@
     border-radius: 8px;
     height: 100%;
     width: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
     justify-content: center;
   }
   
