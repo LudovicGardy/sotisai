@@ -82,10 +82,11 @@ function Parallax() {
                                 <div className="text-little-box-parallax">
                                     <h4>Languages and Frameworks</h4>
                                     <ul>
-                                        <li><span>Programming languages:</span> Python, R, JavaScript, LaTeX</li>
+                                        <li><span>Programming languages:</span> Python, R</li>
                                         <li><span>Web Backend Frameworks:</span> Flask, FastAPI, Django</li>
                                         <li><span>Web Frontend Frameworks:</span> React, NodeJS</li>
-                                        <li><span>Basic web technologies:</span> HTML, CSS</li>
+                                        <li><span>Basic web technologies:</span> HTML, CSS, JavaScript</li>
+                                        <li><span>Documentation technologies:</span> LaTeX, Markdown, XML</li>
                                     </ul>
                                 </div>
 
@@ -108,7 +109,7 @@ function Parallax() {
                                         <li><span>Model Deployment and Serving:</span> TensorFlow Serving, MLflow, TorchServe</li>
                                         <li><span>Experiment Tracking and Versioning:</span> MLflow, DVC (Data Version Control)</li>
                                         <li><span>Model Monitoring and Management:</span> Prometheus, Grafana, Evidently AI</li>
-                                        <li><span>Workflow Automation:</span> Github Actions, Apache Airflow, Jenkins</li>                                       
+                                        <li><span>Workflow Automation:</span> Github Actions, Jenkins, Airflow</li>                                       
                                         {/* <li><span>Workflow Automation:</span> Kubeflow, Apache Airflow, Jenkins</li>                                        */}
                                     </ul>
                                 </div>
