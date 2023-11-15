@@ -98,7 +98,7 @@ function Signal_Processing() {
               <li><FontAwesomeIcon icon={faPersonCircleQuestion} title="Problem or requet" className="services-icon"/> 
               Designed a method to improve the visualization of spectral power in scralograms for large-scale comparisons and interpretations.</li>
               <li><FontAwesomeIcon icon={faScrewdriverWrench} title="Tools" className="services-icon"/>
-              Python.</li>
+              Python · proprietary big data formats (edf, nsX, nrd, ncs, med) · open source formats (dat) · JSON.</li>
               <li><FontAwesomeIcon icon={faSliders} title="Methods" className="services-icon"/>
               Utilized wavelet transform, 2D convolution, heatmaps and other pixel-based methods.</li>
               <li><FontAwesomeIcon icon={faHandshake} title="Delivered to (organization)" className="services-icon"/>
