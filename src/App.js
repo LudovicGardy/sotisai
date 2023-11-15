@@ -15,7 +15,7 @@ import HistoryPage from './pages/About/History_page/History_page';
 import DataScience from './pages/Portfolio/Data_science/Data_science';
 import SignalProcessing from './pages/Portfolio/Signal_processing/Signal_processing';
 import FullstackDev from './pages/Portfolio/Development/Development';
-import Dashboards from './pages/Portfolio/Dashboards/Dashboards';
+import Reports from './pages/Portfolio/Dashboards/Dashboards';
 import Testimonials from './pages/About/Testimonials/Testimonials';
 import LegalInfo from './components/Legal_info/Legal_info';
 import TrustSecurity from './components/Trust_security';
@@ -67,7 +67,7 @@ function App() {
             <Route path="/data-science" component={DataScience} />
             <Route path="/signal-processing" component={SignalProcessing} />
             <Route path="/development" component={FullstackDev} />
-            <Route path="/dashboards" component={Dashboards} />
+            <Route path="/reports" component={Reports} />
             <Route path="/about" component={HistoryPage} />
             <Route path="/testimonials" component={Testimonials} />
             <Route path="/legal-information" component={LegalInfo} />

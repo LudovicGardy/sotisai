@@ -102,8 +102,8 @@ function Navbar() {
                     </Link>
                 </li>
                 <li>
-                    <Link to="/dashboards" className="dropdown-link" onClick={closeMobileMenu}>
-                        <FontAwesomeIcon icon={faTable} className="round-icon" /> Dashboards
+                    <Link to="/reports" className="dropdown-link" onClick={closeMobileMenu}>
+                        <FontAwesomeIcon icon={faTable} className="round-icon" /> Reports
                     </Link>
                 </li>
               </ul>

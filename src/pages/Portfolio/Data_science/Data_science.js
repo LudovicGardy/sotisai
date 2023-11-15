@@ -123,7 +123,7 @@ function Data_Science() {
               <li><FontAwesomeIcon icon={faPersonCircleQuestion} title="Problem or requet" className="services-icon"/> 
               Creation of AI that surpasses human judgement in detecting subtle pathological electric signals in the brain of drug-resistant patients.</li>
               <li><FontAwesomeIcon icon={faScrewdriverWrench} title="Tools" className="services-icon"/> 
-              Python · PyQt · PostgreSQL · MongoDB · JSON · Deep learning · CNN · Google Colab · LaTeX · Markdown · Gitlab.</li>
+              Python · Qt · PostgreSQL · MongoDB · JSON · Deep learning · CNN · Google Colab · LaTeX · Markdown · Gitlab.</li>
               <li><FontAwesomeIcon icon={faSliders} title="Methods" className="services-icon"/> 
               Led and performed from scratch AI model training, Brain signal (EEG, MRI, CT scans) time-ferquency analyses, API design, App design.</li>
               <li><FontAwesomeIcon icon={faHandshake} title="Delivered to (organization)" className="services-icon"/> 
@@ -152,7 +152,7 @@ function Data_Science() {
               <li><FontAwesomeIcon icon={faScrewdriverWrench} title="Tools" className="services-icon"/> 
               Python · R · MySQL · Redis · JSON · Deep learning · CNN · Google Colab · LaTeX · Markdown · Gitlab.</li>
               <li><FontAwesomeIcon icon={faSliders} title="Methods" className="services-icon"/> 
-              Led and performed from scratch data governance | collection | engineering, AI model training, Brain signal (EEG) time-ferquency analyses.</li>
+              Led and performed from scratch big data governance | collection | engineering, AI model training, Brain signal (EEG) time-ferquency analyses.</li>
               <li><FontAwesomeIcon icon={faHandshake} title="Delivered to (organization)" className="services-icon"/> 
               Executed project deliverables for CNRS, and Purpan Hospital of Toulouse. Worked with DIXI Medical®.</li>
               <li><FontAwesomeIcon icon={faCircleInfo} title="Additional info." className="services-icon"/> 
@@ -202,7 +202,7 @@ function Data_Science() {
               <li><FontAwesomeIcon icon={faScrewdriverWrench} title="Tools" className="services-icon"/> 
               Python · R · Azure SQL · NoSQL · Github.</li>
               <li><FontAwesomeIcon icon={faSliders} title="Methods" className="services-icon"/> 
-              Conducted data cleaning | engineering | visualization, and applied feature selection, linear regression, mixed effects models.</li>
+              Conducted big data cleaning | engineering | visualization, and applied feature selection, linear regression, mixed effects models.</li>
               <li><FontAwesomeIcon icon={faHandshake} title="Delivered to (organization)" className="services-icon"/> 
               Executed project deliverables for CNRS, and Purpan Hospital of Toulouse.</li>
               <li><FontAwesomeIcon icon={faCircleInfo} title="Additional info." className="services-icon"/> 
@@ -224,7 +224,7 @@ function Data_Science() {
               <li><FontAwesomeIcon icon={faScrewdriverWrench} title="Tools" className="services-icon"/> 
               Python · R · Excel · PostgreSQL · Github.</li>
               <li><FontAwesomeIcon icon={faSliders} title="Methods" className="services-icon"/> 
-              Conducted data cleaning | engineering | visualization | modeling, and applied Principal Component Analysis (PCA), feature selection, mixed effects models, machine learning.</li>
+              Conducted big data cleaning | engineering | visualization | modeling, and applied Principal Component Analysis (PCA), feature selection, mixed effects models, machine learning.</li>
               <li><FontAwesomeIcon icon={faHandshake} title="Delivered to (organization)" className="services-icon"/> 
               Executed project deliverables for Purpan Hospital of Toulouse.</li>
               <li><FontAwesomeIcon icon={faCircleInfo} title="Additional info." className="services-icon"/> 
@@ -274,7 +274,7 @@ function Data_Science() {
               <li><FontAwesomeIcon icon={faScrewdriverWrench} title="Tools" className="services-icon"/> 
               Python · MongoDB · PostgreSQL · Elasticsearch · JSON.</li>
               <li><FontAwesomeIcon icon={faSliders} title="Methods" className="services-icon"/> 
-              Led and executed data governance | collection | cleaning | anonymisation | engineering.</li>
+              Led and executed big data governance | collection | cleaning | anonymisation | engineering.</li>
               <li><FontAwesomeIcon icon={faHandshake} title="Delivered to (organization)" className="services-icon"/> 
               Executed project deliverables for CNRS, and Civil Aviation Computing Department.</li>
               <li><FontAwesomeIcon icon={faCircleInfo} title="Additional info." className="services-icon"/> 
@@ -300,9 +300,9 @@ function Data_Science() {
               <li><FontAwesomeIcon icon={faPersonCircleQuestion} title="Problem or requet" className="services-icon"/> 
               Standardization of data formats and structures to facilitate transparency, storage, sharing and analysis.</li>
               <li><FontAwesomeIcon icon={faScrewdriverWrench} title="Tools" className="services-icon"/> 
-              Python · Matlab · proprietary formats (edf, nsX, nrd, ncs, med) · JSON.</li>
+              Python · Matlab · proprietary big data formats (edf, nsX, nrd, ncs, med) · JSON.</li>
               <li><FontAwesomeIcon icon={faSliders} title="Methods" className="services-icon"/> 
-              Conducted medical data governance | collection | anonymization | engineering.</li>
+              Conducted medical big data governance | collection | anonymization | engineering.</li>
               <li><FontAwesomeIcon icon={faHandshake} title="Delivered to (organization)" className="services-icon"/> 
               Executed project deliverables for CNRS, and Civil Aviation lab.</li>
               <li><FontAwesomeIcon icon={faCircleInfo} title="Additional info." className="services-icon"/> 
@@ -351,7 +351,7 @@ function Data_Science() {
               <li><FontAwesomeIcon icon={faScrewdriverWrench} title="Tools" className="services-icon"/> 
               R · Matlab · Python · Machine Learning · LaTeX · MySQL · Gitlab.</li>
               <li><FontAwesomeIcon icon={faSliders} title="Methods" className="services-icon"/> 
-              Conducted clinical data collection | cleaning | anonymization, and utilized Random Forest and SVM for classification, and Multivariate Pattern Analysis (MVPA).</li>
+              Conducted clinical big data collection | cleaning | anonymization, and utilized Random Forest and SVM for classification, and Multivariate Pattern Analysis (MVPA).</li>
               <li><FontAwesomeIcon icon={faHandshake} title="Delivered to (organization)" className="services-icon"/> 
               Executed project deliverables for CNRS.</li>
               <li><FontAwesomeIcon icon={faCircleInfo} title="Additional info." className="services-icon"/> 
@@ -373,7 +373,7 @@ function Data_Science() {
               <li><FontAwesomeIcon icon={faScrewdriverWrench} title="Tools" className="services-icon"/> 
               R · Excel · LaTeX · Markdown · Gitlab.</li>
               <li><FontAwesomeIcon icon={faSliders} title="Methods" className="services-icon"/> 
-              Involved in medical data collection | cleaning | engineering, executed SVM for classification and linear regressions for predictions.</li>
+              Involved in medical big data collection | cleaning | engineering, executed SVM for classification and linear regressions for predictions.</li>
               <li><FontAwesomeIcon icon={faHandshake} title="Delivered to (organization)" className="services-icon"/> 
               Executed project deliverables for CNRS, and Civil Aviation lab.</li>
               <li><FontAwesomeIcon icon={faCircleInfo} title="Additional info." className="services-icon"/> 

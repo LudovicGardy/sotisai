@@ -75,13 +75,13 @@ function Signal_Processing() {
             </div>
             <ul className="services-content-ul">
               <li><FontAwesomeIcon icon={faPersonCircleQuestion} title="Problem or requet" className="services-icon"/> 
-              How can we isolate micro-oscillations from raw, complex EEG data? Devised and executed a process pipeline for extraction.</li>
+              Isolation of micro-oscillations from raw, complex intracerebral EEG data. Designed and executed a process pipeline for extraction, transformation and classification.</li>
               <li><FontAwesomeIcon icon={faScrewdriverWrench} title="Tools" className="services-icon"/>
-              Deployed Python for comprehensive data handling and analysis.</li>
+              Python · proprietary big data formats (edf, nsX, nrd, ncs, med) · JSON.</li>
               <li><FontAwesomeIcon icon={faSliders} title="Methods" className="services-icon"/>
-              Applied techniques such as normalization, filtering, wavelet transform, matrix convolution, and time-frequency analysis.</li>
+              Applied signal processing techniques such as normalization, filtering, wavelet transform, time-frequency analysis, 2D and 3D matrices convolution.</li>
               <li><FontAwesomeIcon icon={faHandshake} title="Delivered to (organization)" className="services-icon"/>
-              Executed project deliverables for CNRS, Civil Aviation lab, and Purpan Hospital of Toulouse.</li>
+              Executed project deliverables for CNRS, Civil Aviation Computing Department, and Purpan Hospital of Toulouse.</li>
               <li><FontAwesomeIcon icon={faCircleInfo} title="Additional info." className="services-icon"/>
               Part of a 5-year project. A full <a target="_blank" href="https://www.theses.fr/2021TOU30190">scientific report</a> has been published.</li>
             </ul>
@@ -96,11 +96,11 @@ function Signal_Processing() {
             </div>
             <ul className="services-content-ul">
               <li><FontAwesomeIcon icon={faPersonCircleQuestion} title="Problem or requet" className="services-icon"/> 
-              How can the visualization of spectral power in scalograms be improved for enhanced large-scale comparison and interpretation? Devised a method for this challenge.</li>
+              Designed a method to improve the visualization of spectral power in scralograms for large-scale comparisons and interpretations.</li>
               <li><FontAwesomeIcon icon={faScrewdriverWrench} title="Tools" className="services-icon"/>
-              Employed Python for comprehensive analysis and visualization.</li>
+              Python.</li>
               <li><FontAwesomeIcon icon={faSliders} title="Methods" className="services-icon"/>
-              Utilized wavelet transform, 2-D convolution, heatmaps and other pixel-based methods.</li>
+              Utilized wavelet transform, 2D convolution, heatmaps and other pixel-based methods.</li>
               <li><FontAwesomeIcon icon={faHandshake} title="Delivered to (organization)" className="services-icon"/>
               Executed project deliverables for CNRS.</li>
               <li><FontAwesomeIcon icon={faCircleInfo} title="Additional info." className="services-icon"/>
@@ -123,15 +123,15 @@ function Signal_Processing() {
             </div>
             <ul className="services-content-ul">
               <li><FontAwesomeIcon icon={faPersonCircleQuestion} title="Problem or requet" className="services-icon"/>
-              How can we enhance the visualization of 3-D brain images and effectively localize cortical areas? Applied conventional methods for resolution.</li>
+              Visualization enhancement of 3-D brain images for localization of cortical areas, using convolution and threshold methods.</li>
               <li><FontAwesomeIcon icon={faScrewdriverWrench} title="Tools" className="services-icon"/>
-              Leveraged Python and medical data formats (DICOM, NIfTI).</li>
+              Python · proprietary and open source formats (DICOM, NIfTI) · JSON.</li>
               <li><FontAwesomeIcon icon={faSliders} title="Methods" className="services-icon"/>
-              Deployed 3-D architecture for navigation and 2-D kernels for image enhancement.</li>
+              Converted, aligned and restructured MRI brain images. Designed 3D architecture for navigation and 2D kernels for image enhancement.</li>
               <li><FontAwesomeIcon icon={faHandshake} title="Delivered to (organization)" className="services-icon"/>
               Executed project deliverables for CNRS.</li>
               <li><FontAwesomeIcon icon={faCircleInfo} title="Additional info." className="services-icon"/>
-              A 1-week mission. A version of this tool is available in a <a target="_blank" href="https://github.com/LudovicGardy/Halyzia_MRI_visualization">public repository</a> on github.</li>
+              A mission that was spread over time. A version of this tool is available in a <a target="_blank" href="https://github.com/LudovicGardy/Halyzia_MRI_visualization">public repository</a> on github.</li>
             </ul>
           </div>
         </div>
@@ -144,13 +144,13 @@ function Signal_Processing() {
             </div>
             <ul className="services-content-ul">
               <li><FontAwesomeIcon icon={faPersonCircleQuestion} title="Problem or requet" className="services-icon"/>
-              Can we automate the detection of epileptic spikes in EEG data? Developed a novel approach for this challenge.</li>
+              Automation of epileptic spikes detection in intracerebral EEG data.</li>
               <li><FontAwesomeIcon icon={faScrewdriverWrench} title="Tools" className="services-icon"/>
-              Utilized Python for comprehensive data processing and analysis.</li>
+              Python · proprietary big data formats (edf, nsX, nrd, ncs, med) · open source formats (dat) · JSON.</li>
               <li><FontAwesomeIcon icon={faSliders} title="Methods" className="services-icon"/>
-              Applied time series and image processing, pixel-based analyses, 2-dimensional convolution, image resampling, and filtering.</li>
+              Applied time series and image processing, pixel-based analyses, 2D convolution, image resampling, thresholding and filtering.</li>
               <li><FontAwesomeIcon icon={faHandshake} title="Delivered to (organization)" className="services-icon"/>
-              Executed project deliverables for CNRS, and Civil Aviation lab.</li>
+              Executed project deliverables for CNRS, and Civil Aviation Computing Department.</li>
               <li><FontAwesomeIcon icon={faCircleInfo} title="Additional info." className="services-icon"/>
               A 6-month project leading to the publication of a <a target="_blank" href="https://hal-enac.archives-ouvertes.fr/hal-02555030/">scientific paper</a>. The corresponding <a target="_blank" href="https://enac.hal.science/hal-02396485/document">poster</a> was presented at several international conferences.</li>
             </ul>
@@ -171,11 +171,11 @@ function Signal_Processing() {
             </div>
             <ul className="services-content-ul">
               <li><FontAwesomeIcon icon={faPersonCircleQuestion} title="Problem or requet" className="services-icon"/>
-              How can we summarize the brain activity of a patient during a behavioral task? Conducted extensive analysis for this purpose.</li>
+              Summarization of brain activity during a behavioral task.</li>
               <li><FontAwesomeIcon icon={faScrewdriverWrench} title="Tools" className="services-icon"/>
-              Utilized Matlab and Python for comprehensive data analysis.</li>
+              Python · Tkinter · Qt · proprietary big data formats (edf, nsX, nrd, ncs, med) · open source formats (dat) · JSON.</li>
               <li><FontAwesomeIcon icon={faSliders} title="Methods" className="services-icon"/>
-              Managed data collection, cleaning, filtering, averaging, segmentation, and comparison.</li>
+              Conducted data collection | cleaning | filtering | averaging | segmentation, UI/UX for local app design, multimodality comparisons.</li>
               <li><FontAwesomeIcon icon={faHandshake} title="Delivered to (organization)" className="services-icon"/>
               Executed project deliverables for CNRS.</li>
               <li><FontAwesomeIcon icon={faCircleInfo} title="Additional info." className="services-icon"/>
@@ -192,11 +192,11 @@ function Signal_Processing() {
             </div>
             <ul className="services-content-ul">
               <li><FontAwesomeIcon icon={faPersonCircleQuestion} title="Problem or requet" className="services-icon"/>
-              How can we extract neuronal activity from intracerebral EEG data recorded via micro-electrodes? Successfully accomplished this extraction.</li>
+              Extraction of neuronal activity from intracerebral EEG data using a new technology of micro-electrodes.</li>
               <li><FontAwesomeIcon icon={faScrewdriverWrench} title="Tools" className="services-icon"/>
-              Employed Matlab, Python, and Spyking Circus.</li>
+              Matlab · Python · Spyking Circus · proprietary big data formats (edf, nsX, nrd, ncs, med) · open source formats (dat) · JSON.</li>
               <li><FontAwesomeIcon icon={faSliders} title="Methods" className="services-icon"/>
-              Managed data collection, data engineering, data anonymization, and data analysis.</li>
+              Conducted big data collection, cleaning and engineering, UI/UX for local app design, multivariate statistical analyses.</li>
               <li><FontAwesomeIcon icon={faHandshake} title="Delivered to (organization)" className="services-icon"/>
               Executed project deliverables for CNRS.</li>
               <li><FontAwesomeIcon icon={faCircleInfo} title="Additional info." className="services-icon"/>

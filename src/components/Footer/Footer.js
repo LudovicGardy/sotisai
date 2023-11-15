@@ -54,7 +54,7 @@ function Footer() {
               <a target="_blank" href="https://www.youtube.com/@halyziaavriomedtech5585" className="fab fa-youtube" id="youtube"/>
             </div> */}
             <div className="social-icon-link github">
-              <a target="_blank" href="https://github.com/LudovicGardy/Halyzia_neural_network" className="fab fa-github" id="github"/>
+              <a target="_blank" href="https://github.com/LudovicGardy" className="fab fa-github" id="github"/>
             </div>
           </div>
         </div>

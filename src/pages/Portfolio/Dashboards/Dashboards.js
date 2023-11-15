@@ -7,7 +7,7 @@ import Partners from "../../Home/Scrolling_banner_section";
 import "../../../App.css";
 import "../Portfolio.css";
 
-function Dashboards() {
+function Reports() {
 
   const settings = {
     dots: true,
@@ -23,17 +23,14 @@ function Dashboards() {
 
         <div className="services-banner" >
             <img src="/images/LG_banners/dashboards/format_L.jpg"></img>
-            <h1 className= "banners-title">DASHBOARDS</h1>
+            <h1 className= "banners-title">REPORTS</h1>
         </div>
 
         <div className="services-transition" style={{padding:'0px', paddingTop:'80px', width:'90%'}}>
           <p style={{width: '100%',alignSelf:'center'}}>
           My practice of datascience has brought me into contact with all the elements that make up a data project, 
-          from concept definition to implementation, including database management and dashboard creation. 
-          Although I specialize in machine learning, the conception, training and testing of models, as well as the 
-          definition of fundamental theoretical notions and the design of methods, I enjoy being involved in the 
-          various stages of projects. I like to understand the essence, the stakes and the objectives, so that I 
-          can be impactful in my analyses and proposals.
+          from concept definition to implementation, including database management, machine learning, dashboards and reporting. 
+          Depending of the ressources you have at your disposal, I can help you with all or part of your project.
           </p>
           
         </div>
@@ -45,7 +42,7 @@ function Dashboards() {
         <Data_workflow/>
 
         <div className="services-start" style={{paddingLeft: '0px', paddingTop: '0px', width:'90%'}}>
-          <h3>Examples of publicly shareable dashboards I had the opportunity to deliver</h3>
+          <h3>Examples of publicly shareable summarized reports I had the opportunity to deliver</h3>
         </div>
 
         <Dashboards_images/>
@@ -67,4 +64,4 @@ function Dashboards() {
   );
 }
 
-export default Dashboards;
+export default Reports;
