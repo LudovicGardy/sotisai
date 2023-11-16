@@ -119,15 +119,8 @@
     padding: 30px;
     margin: 5px;
     text-align: center;
-}
-
-.services-quote-text {
-    display: flex;
-    flex-direction: column;
     flex-grow: 0; /* ne se développe pas pour occuper plus d'espace */
     background-color: none;
-    padding: 30px;
-    margin: 5px;
 }
 
 .services-quote-text p {
