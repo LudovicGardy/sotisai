@@ -128,7 +128,7 @@ function HistoryPage() {
                     <li className={styles.myLi} style={{'--accent-color': '#6e51a8'}}>
                         <div className={styles.myDate}>Sept. 2015 - June 2017</div>
                         <div className={styles.myTitle}>MD Neurosciences, AI specialization </div>
-                        <div className={styles.myDescr}>Paul Sabatier University and National School Aviation</div>
+                        <div className={styles.myDescr}>Paul Sabatier University and National School Aviation.</div>
                     </li>
                 </ul>
             </div>
