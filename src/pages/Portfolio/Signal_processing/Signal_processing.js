@@ -125,7 +125,7 @@ function Signal_Processing() {
               <li><FontAwesomeIcon icon={faPersonCircleQuestion} title="Problem or requet" className="services-icon"/>
               Visualization enhancement of 3-D brain images for localization of cortical areas, using convolution and threshold methods.</li>
               <li><FontAwesomeIcon icon={faScrewdriverWrench} title="Tools" className="services-icon"/>
-              Python · proprietary and open source formats (DICOM, NIfTI) · JSON.</li>
+              Python · proprietary and open source formats (DICOM, NIfTI) ·  Docker · JSON.</li>
               <li><FontAwesomeIcon icon={faSliders} title="Methods" className="services-icon"/>
               Converted, aligned and restructured MRI brain images. Designed 3D architecture for navigation and 2D kernels for image enhancement.</li>
               <li><FontAwesomeIcon icon={faHandshake} title="Delivered to (organization)" className="services-icon"/>
@@ -146,7 +146,7 @@ function Signal_Processing() {
               <li><FontAwesomeIcon icon={faPersonCircleQuestion} title="Problem or requet" className="services-icon"/>
               Automation of epileptic spikes detection in intracerebral EEG data.</li>
               <li><FontAwesomeIcon icon={faScrewdriverWrench} title="Tools" className="services-icon"/>
-              Python · proprietary big data formats (edf, nsX, nrd, ncs, med) · open source formats (dat) · JSON.</li>
+              Python · proprietary big data formats (edf, nsX, nrd, ncs, med) · open source formats (dat) ·  Docker · JSON.</li>
               <li><FontAwesomeIcon icon={faSliders} title="Methods" className="services-icon"/>
               Applied time series and image processing, pixel-based analyses, 2D convolution, image resampling, thresholding and filtering.</li>
               <li><FontAwesomeIcon icon={faHandshake} title="Delivered to (organization)" className="services-icon"/>
@@ -173,7 +173,7 @@ function Signal_Processing() {
               <li><FontAwesomeIcon icon={faPersonCircleQuestion} title="Problem or requet" className="services-icon"/>
               Summarization of brain activity during a behavioral task.</li>
               <li><FontAwesomeIcon icon={faScrewdriverWrench} title="Tools" className="services-icon"/>
-              Python · Tkinter · Qt · proprietary big data formats (edf, nsX, nrd, ncs, med) · open source formats (dat) · JSON.</li>
+              Python · Tkinter · Qt · proprietary big data formats (edf, nsX, nrd, ncs, med) · open source formats (dat) · Docker · JSON.</li>
               <li><FontAwesomeIcon icon={faSliders} title="Methods" className="services-icon"/>
               Conducted data collection | cleaning | filtering | averaging | segmentation, UI/UX for local app design, multimodality comparisons.</li>
               <li><FontAwesomeIcon icon={faHandshake} title="Delivered to (organization)" className="services-icon"/>

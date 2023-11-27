@@ -74,7 +74,7 @@ function Data_Science() {
               <li><FontAwesomeIcon icon={faPersonCircleQuestion} title="Problem or request" className="services-icon"/> 
               Creation of an intuitive web app to analyze and visualize and understand real estate prices across France</li>
               <li><FontAwesomeIcon icon={faScrewdriverWrench} title="Tools" className="services-icon"/> 
-              Python · Streamlit · Spark · Databricks · Azure SQL · Snowflake · DBT · Google Firebase · Google Analytics · Heroku · OVH · AWS S3 · Selenium web scraping · Github.</li>
+              Python · Streamlit · Spark · Databricks · Azure SQL · Docker · Snowflake · DBT · Google Firebase · Google Analytics · Heroku · OVH · AWS S3 · Selenium web scraping · Github.</li>
               <li><FontAwesomeIcon icon={faSliders} title="Methods" className="services-icon"/> 
               Integrated official government datasets and scraped data over real estate agencies to provide up-to-date, accurate insights into real estate trends.</li>
               <li><FontAwesomeIcon icon={faHandshake} title="Delivered to (organization)" className="services-icon"/> 
@@ -150,7 +150,7 @@ function Data_Science() {
               <li><FontAwesomeIcon icon={faPersonCircleQuestion} title="Problem or requet" className="services-icon"/> 
               Evaluation of a new generation of electrodes to record new epilepsy biomarkers.</li>
               <li><FontAwesomeIcon icon={faScrewdriverWrench} title="Tools" className="services-icon"/> 
-              Python · R · MySQL · Redis · JSON · Deep learning · CNN · Google Colab · LaTeX · Markdown · Gitlab.</li>
+              Python · R · MySQL · Redis · JSON · Docker · Deep learning · CNN · Google Colab · LaTeX · Markdown · Gitlab.</li>
               <li><FontAwesomeIcon icon={faSliders} title="Methods" className="services-icon"/> 
               Led and performed from scratch big data governance | collection | engineering, AI model training, Brain signal (EEG) time-ferquency analyses.</li>
               <li><FontAwesomeIcon icon={faHandshake} title="Delivered to (organization)" className="services-icon"/> 
