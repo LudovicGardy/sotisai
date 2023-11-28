@@ -16,6 +16,7 @@ import { faHandshake } from '@fortawesome/free-solid-svg-icons';
 import { faCircleInfo } from '@fortawesome/free-solid-svg-icons';
 import { faCalendarCheck } from '@fortawesome/free-solid-svg-icons';
 import { faRocket } from '@fortawesome/free-solid-svg-icons';
+import { faUtensils } from '@fortawesome/free-solid-svg-icons';
 
 // https://fontawesome.com/v6/icons?q=Table&o=r&s=solid
 
@@ -65,9 +66,12 @@ function Data_Science() {
         </div>
 
         <div className="services-content services-content-first">
+          <div className="services-content-img" onClick={() => openModal("/images/LG_services/data_science/sotisimmobilier.jpg")}>
+            <img src="/images/LG_services/data_science/sotisimmobilier.jpg"></img>
+          </div>
           <div className="services-content-text">
             <div className="services-content-left-title-wrapper">
-              <h4 className="services-content-left-title">French Real Estate Price Web App</h4>
+              <h4 className="services-content-left-title">Sotis Immobilier. Real Estate Price Web App</h4>
               <p className="news-text"><FontAwesomeIcon icon={faCalendarCheck} title="Date" className="services-icon subtitle-icons"/> 2023</p>
             </div>
             <ul className="services-content-ul">
@@ -83,16 +87,10 @@ function Data_Science() {
               User-friendly web app, offering easy navigation and tailored insights to a wide range of users from potential homebuyers to real estate professionals.</li>
             </ul>
           </div>
-          <div className="services-content-img" onClick={() => openModal("/images/LG_services/data_science/sotisimmobilier.jpg")}>
-            <img src="/images/LG_services/data_science/sotisimmobilier.jpg"></img>
-          </div>
         </div>
 
 
-        <div className="services-content  reverse-flex-col">
-          <div className="services-content-img" onClick={() => openModal("/images/LG_services/data_science/specialized_ai_chatbot.jpg")}>
-            <img src="/images/LG_services/data_science/specialized_ai_chatbot.jpg"></img>
-          </div>
+        <div className="services-content">
           <div className="services-content-text">
             <div className="services-content-left-title-wrapper">
               <h4 className="services-content-left-title">Specialized A.I. Chatbots</h4>
@@ -109,6 +107,33 @@ function Data_Science() {
               Developed as a sandbox project.</li>
               <li><FontAwesomeIcon icon={faCircleInfo} title="Additional info." className="services-icon"/> 
               Tackled a straightforward problem where a unique model was trained for each bot. While these models are experts, they can be tailored to mimic anyone.</li>
+            </ul>
+          </div>
+          <div className="services-content-img" onClick={() => openModal("/images/LG_services/data_science/specialized_ai_chatbot.jpg")}>
+            <img src="/images/LG_services/data_science/specialized_ai_chatbot.jpg"></img>
+          </div>
+        </div>
+
+        <div className="services-content reverse-flex-col">
+          <div className="services-content-img" onClick={() => openModal("/images/LG_services/data_science/letsdine.jpg")}>
+            <img src="/images/LG_services/data_science/letsdine.jpg"></img>
+          </div>
+          <div className="services-content-text">
+            <div className="services-content-left-title-wrapper">
+              <h4 className="services-content-left-title">Let's Dine! A Web App To Find A Nearby Restaurants</h4>
+              <p className="news-text"><FontAwesomeIcon icon={faCalendarCheck} title="Date" className="services-icon subtitle-icons"/> 2023</p>
+            </div>
+            <ul className="services-content-ul">
+              <li><FontAwesomeIcon icon={faPersonCircleQuestion} title="Problem or request" className="services-icon"/> 
+              This prototype has two objectives: find restaurants near the user using their position (coordinates) and compare the calculation performance between Pandas and PySpark.</li>
+              <li><FontAwesomeIcon icon={faScrewdriverWrench} title="Tools" className="services-icon"/> 
+              Python · Streamlit · Spark · Docker · Google Firebase · Google Analytics · AWS S3 · Github.</li>
+              <li><FontAwesomeIcon icon={faSliders} title="Methods" className="services-icon"/> 
+              Use Haversine's formula to calculate the distance of a great circle between two points on a sphere based on longitudes and latitudes.</li>
+              <li><FontAwesomeIcon icon={faHandshake} title="Delivered to (organization)" className="services-icon"/> 
+              Developed as an open source project: <a target="_blank" href="https://letsdine.streamlit.app" className="advertise_link">click here to start the app <FontAwesomeIcon icon={faUtensils} title="Date" className="services-icon subtitle-icons"/></a></li>
+              <li><FontAwesomeIcon icon={faCircleInfo} title="Additional info." className="services-icon"/> 
+              On small datasets Pandas (&lt;10K) outperform PySpark. On big datasets (&gt;15M), PySpark is much better and still allows real-time navigation. This prototype works in Paris only.</li>
             </ul>
           </div>
         </div>
