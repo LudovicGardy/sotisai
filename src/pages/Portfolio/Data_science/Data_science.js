@@ -120,7 +120,7 @@ function Data_Science() {
           </div>
           <div className="services-content-text">
             <div className="services-content-left-title-wrapper">
-              <h4 className="services-content-left-title">Let's Dine! A Web App To Find A Nearby Restaurants</h4>
+              <h4 className="services-content-left-title">Let's Dine! A Web App To Find Nearby Restaurants</h4>
               <p className="news-text"><FontAwesomeIcon icon={faCalendarCheck} title="Date" className="services-icon subtitle-icons"/> 2023</p>
             </div>
             <ul className="services-content-ul">
