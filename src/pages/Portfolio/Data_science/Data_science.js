@@ -66,6 +66,30 @@ function Data_Science() {
         </div>
 
         <div className="services-content services-content-first">
+          <div className="services-content-text">
+            <div className="services-content-left-title-wrapper">
+              <h4 className="services-content-left-title">Sotis Immobilier personalized chatbot</h4>
+              <p className="news-text"><FontAwesomeIcon icon={faCalendarCheck} title="Problem or requet" className="services-icon subtitle-icons"/> 2023</p>
+            </div>
+            <ul className="services-content-ul">
+              <li><FontAwesomeIcon icon={faPersonCircleQuestion} title="Problem or requet" className="services-icon"/> 
+              A virtual real estate agent to advise you on the properties you are looking at on the Sotis Immobilier web application.</li>
+              <li><FontAwesomeIcon icon={faScrewdriverWrench} title="Tools" className="services-icon"/> 
+              Python · Streamlit · OpenAI API (GPT models) · Replicate API (Llama2 and Mistral models) · Docker · Github.</li>
+              <li><FontAwesomeIcon icon={faSliders} title="Methods" className="services-icon"/> 
+              To be accessible to as many people as possible but also to compare the performance of the models, the user can choose a model (GPT? LLama2? Mistral?) and its size (7B? 13B?).</li>
+              <li><FontAwesomeIcon icon={faHandshake} title="Delivered to (organization)" className="services-icon"/> 
+              Developed as an open source project: <a target="_blank" href="https://immo.sotisanalytics.com" className="advertise_link">click here to start the app <FontAwesomeIcon icon={faRocket} title="Date" className="services-icon subtitle-icons"/></a></li>
+              <li><FontAwesomeIcon icon={faCircleInfo} title="Additional info." className="services-icon"/> 
+              This personalized assistant has been added as an optional feature to Sotis Immobilier. Users can choose to enable it or not. For now, they must use their own API key.</li>
+            </ul>
+          </div>
+          <div className="services-content-img" onClick={() => openModal("/images/LG_services/data_science/sotisimmobilier_chatbot.jpg")}>
+            <img src="/images/LG_services/data_science/sotisimmobilier_chatbot.jpg"></img>
+          </div>
+        </div>
+
+        <div className="services-content">
           <div className="services-content-img" onClick={() => openModal("/images/LG_services/data_science/sotisimmobilier.jpg")}>
             <img src="/images/LG_services/data_science/sotisimmobilier.jpg"></img>
           </div>
