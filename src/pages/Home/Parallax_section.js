@@ -60,7 +60,7 @@ function Parallax() {
                                 <div className="text-little-box-parallax">
                                     <h4>Database Management and Data Handling</h4>
                                     <ul>
-                                        <li><span>Relational Databases:</span> PostgreSQL, MySQL, Pymssql</li>
+                                        <li><span>Relational Databases:</span> PostgreSQL, MySQL, Pymssql, BigQuery, Azure SQL</li>
                                         <li><span>NoSQL Databases:</span> MongoDB, Redis</li>
                                         <li><span>Database Management Tools:</span> SQLAlchemy, Pinecone</li>
                                         <li><span>Data Storage Solutions:</span> Data lakes, Data warehouses, Dynamic databases</li>

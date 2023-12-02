@@ -89,7 +89,7 @@ function Data_Science() {
           </div>
         </div>
 
-        <div className="services-content">
+        <div className="services-content reverse-flex-col">
           <div className="services-content-img" onClick={() => openModal("/images/LG_services/data_science/sotisimmobilier.jpg")}>
             <img src="/images/LG_services/data_science/sotisimmobilier.jpg"></img>
           </div>
@@ -102,7 +102,7 @@ function Data_Science() {
               <li><FontAwesomeIcon icon={faPersonCircleQuestion} title="Problem or request" className="services-icon"/> 
               Creation of an intuitive web app to analyze and visualize and understand real estate prices across France</li>
               <li><FontAwesomeIcon icon={faScrewdriverWrench} title="Tools" className="services-icon"/> 
-              Python · Streamlit · Spark · Databricks · Azure SQL · Docker · Snowflake · DBT · Google Firebase · Google Analytics · Heroku · OVH · AWS S3 · Selenium web scraping · Github.</li>
+              Python · Streamlit · Spark · Databricks · BigQuery · Azure SQL · Docker · Snowflake · DBT · Google Firebase · Google Analytics · Heroku · OVH · AWS S3 · Selenium web scraping · Github.</li>
               <li><FontAwesomeIcon icon={faSliders} title="Methods" className="services-icon"/> 
               Integrated official government datasets and scraped data over real estate agencies to provide up-to-date, accurate insights into real estate trends.</li>
               <li><FontAwesomeIcon icon={faHandshake} title="Delivered to (organization)" className="services-icon"/> 
@@ -151,7 +151,7 @@ function Data_Science() {
               <li><FontAwesomeIcon icon={faPersonCircleQuestion} title="Problem or request" className="services-icon"/> 
               This prototype has two objectives: find restaurants near the user using their position (coordinates) and compare the calculation performance between Pandas and PySpark.</li>
               <li><FontAwesomeIcon icon={faScrewdriverWrench} title="Tools" className="services-icon"/> 
-              Python · Streamlit · Spark · Docker · Google Firebase · Google Analytics · AWS S3 · Github.</li>
+              Python · Streamlit · BigQuery · Spark · Docker · Google Firebase · Google Analytics · AWS S3 · Github.</li>
               <li><FontAwesomeIcon icon={faSliders} title="Methods" className="services-icon"/> 
               Use Haversine's formula to calculate the distance of a great circle between two points on a sphere based on longitudes and latitudes.</li>
               <li><FontAwesomeIcon icon={faHandshake} title="Delivered to (organization)" className="services-icon"/> 
@@ -299,7 +299,7 @@ function Data_Science() {
               <li><FontAwesomeIcon icon={faPersonCircleQuestion} title="Problem or requet" className="services-icon"/> 
               How does the size of emotional brain structures, such as the amygdala, affect psychiatric conditions?</li>
               <li><FontAwesomeIcon icon={faScrewdriverWrench} title="Tools" className="services-icon"/> 
-              R · MRI measurements · medical tables and documents (excel, csv, pdf).</li>
+              R · MRI measurements · medical tables and documents (excel, csv, parquet, pdf).</li>
               <li><FontAwesomeIcon icon={faSliders} title="Methods" className="services-icon"/> 
               Applied linear regressions, mixed effect models, and conducted parametric and non-parametric statistical analyses.</li>
               <li><FontAwesomeIcon icon={faHandshake} title="Delivered to (organization)" className="services-icon"/> 
