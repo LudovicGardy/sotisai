@@ -16,7 +16,7 @@ function ContactInfo() {
             <div className="horizontal-box-icon">
                 <div className="vertical-box-info">
                     <FontAwesomeIcon icon={faLocationDot} className="contactIcon_style" />
-                    <p>Nice, France</p>
+                    <p>Le Mans, France</p>
                 </div>
                 <div className="vertical-box-info">
                     <FontAwesomeIcon icon={faSquarePhone} className="contactIcon_style" />
